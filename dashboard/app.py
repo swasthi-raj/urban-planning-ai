@@ -1,14 +1,18 @@
 """
-AI-Powered Urban Infrastructure Monitoring — Dashboard Shell
+AI-Powered Urban Infrastructure Monitoring — Dashboard
 MOC-LLAB / SDSU
 
-STATUS: Shell built with PLACEHOLDER DATA.
-Swap out the functions in the "DATA LAYER" section below once real
-model inference results and 311 data are ready.
-Everything below that section (UI, charts, map) reads from those
-functions and does not need to change when real data is plugged in,
-as long as the returned DataFrame shapes stay the same.
+Reads real YOLOv8-seg detections (data/detections.csv) when present —
+produced by run_inference.py against the trained model (best (3).pt) on
+geotagged San Diego street-view imagery. Falls back to placeholder data
+so the dashboard still runs before that file exists.
+
+311 complaint counts come from data/complaints_311.csv (produced by
+process_311.py against San Diego's Get It Done open dataset) when present,
+otherwise placeholder counts are used the same way.
 """
+
+import os
 
 import streamlit as st
 import pandas as pd
@@ -21,8 +25,12 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
+DETECTIONS_CSV = os.path.join(DATA_DIR, "detections.csv")
+COMPLAINTS_311_CSV = os.path.join(DATA_DIR, "complaints_311.csv")
+
 # =========================================================================
-# DATA LAYER  —  replace these functions with real data once available
+# DATA LAYER
 # =========================================================================
 
 NEIGHBORHOODS = {
@@ -36,8 +44,9 @@ NEIGHBORHOODS = {
     "Del Mar Heights": (32.9595, -117.2494, "Wealthier"),
 }
 
-# Per-class mAP50 from the v4 (6-class) model — used to weight placeholder
-# detection confidence, replace with real per-image inference once run.
+# Real per-class mAP50 from the trained model (best (3).pt, yolov8m-seg,
+# 60 epochs, overall mAP50 = 0.577) — not a placeholder, this is the actual
+# training result read from training_results (3).zip / results.csv.
 CLASS_MODEL_CONFIDENCE = {
     "Longitudinal Crack": 0.550,
     "Transverse Crack": 0.318,
@@ -58,19 +67,23 @@ SEVERITY_MAP = {
 
 
 @st.cache_data
-def load_placeholder_detections(seed: int = 42) -> pd.DataFrame:
+def load_detections(seed: int = 42) -> pd.DataFrame:
     """
-    PLACEHOLDER — replace with real YOLOv8-seg inference output.
-    Expected real replacement: one row per detected instance, with at
-    minimum: neighborhood, class_name, confidence, lat, lon, image_id.
-    Underserved neighborhoods are seeded with more deficiency counts
-    on purpose here, just to make the placeholder map/charts legible;
-    this is NOT a real finding.
+    Real detections when data/detections.csv exists (produced by
+    run_inference.py). Falls back to seeded placeholder rows otherwise,
+    so the dashboard is still runnable before inference has been run.
     """
+    if os.path.exists(DETECTIONS_CSV):
+        df = pd.read_csv(DETECTIONS_CSV)
+        expected = {"neighborhood", "category", "class_name", "severity", "confidence", "lat", "lon"}
+        missing = expected - set(df.columns)
+        if missing:
+            st.error(f"detections.csv is missing expected columns: {missing}")
+        return df
+
     rng = np.random.default_rng(seed)
     rows = []
     classes = list(CLASS_MODEL_CONFIDENCE.keys())
-
     for name, (lat, lon, category) in NEIGHBORHOODS.items():
         base_count = rng.integers(180, 260) if category == "Underserved" else rng.integers(70, 150)
         for _ in range(base_count):
@@ -88,18 +101,30 @@ def load_placeholder_detections(seed: int = 42) -> pd.DataFrame:
 
 
 @st.cache_data
-def load_placeholder_311() -> pd.DataFrame:
+def load_311() -> pd.DataFrame:
     """
-    PLACEHOLDER — replace with real San Diego 311 Get It Done complaint
-    counts by neighborhood, filtered to relevant infrastructure categories.
+    Real San Diego Get It Done 311 counts when data/complaints_311.csv
+    exists (produced by process_311.py). Falls back to placeholder counts
+    otherwise. El Cajon has no San Diego 311 coverage (separate city) —
+    the real file marks this with source="no_311_coverage"; the placeholder
+    path below approximates the same by giving it a count without a
+    real source label.
     """
+    if os.path.exists(COMPLAINTS_311_CSV):
+        df = pd.read_csv(COMPLAINTS_311_CSV)
+        if "source" not in df.columns:
+            df["source"] = "unknown"
+        return df
+
     rng = np.random.default_rng(11)
     data = []
     for name, (_, _, category) in NEIGHBORHOODS.items():
-        # Placeholder assumption for H5 exploration: underserved areas
-        # under-report relative to AI-detected issues. Replace with real counts.
         count = rng.integers(15, 45) if category == "Underserved" else rng.integers(30, 70)
-        data.append({"neighborhood": name, "reported_311_complaints": count})
+        data.append({
+            "neighborhood": name,
+            "reported_311_complaints": count,
+            "source": "placeholder",
+        })
     return pd.DataFrame(data)
 
 
@@ -137,14 +162,43 @@ st.caption(
     "Equity scoring across San Diego neighborhoods — Google Street View + YOLOv8-seg "
     "detections, cross-referenced with 311 complaints."
 )
-st.warning(
-    "⚠️ Placeholder data shown throughout. Charts and map will update automatically "
-    "once real model inference and 311 data are connected — no layout changes needed.",
-    icon="⚠️",
-)
 
-detections = load_placeholder_detections()
-complaints_311 = load_placeholder_311()
+detections = load_detections()
+complaints_311 = load_311()
+using_real_detections = os.path.exists(DETECTIONS_CSV)
+using_real_311 = os.path.exists(COMPLAINTS_311_CSV)
+
+if using_real_detections and using_real_311:
+    st.success(
+        f"✅ Showing real data: {len(detections):,} model detections across "
+        f"{detections['neighborhood'].nunique()} neighborhoods, cross-referenced with real "
+        "San Diego 311 Get It Done complaints.",
+        icon="✅",
+    )
+else:
+    missing = []
+    if not using_real_detections:
+        missing.append("model detections (run run_inference.py)")
+    if not using_real_311:
+        missing.append("311 data (run process_311.py)")
+    st.warning(
+        f"⚠️ Placeholder data shown for: {', '.join(missing)}. Layout and charts will "
+        "update automatically once those scripts have been run — no code changes needed.",
+        icon="⚠️",
+    )
+
+if using_real_detections:
+    covered = set(detections["neighborhood"].unique())
+    uncovered = [n for n in NEIGHBORHOODS if n not in covered]
+    if uncovered:
+        st.info(
+            f"ℹ️ No real detections yet for: {', '.join(uncovered)} — excluded from the map, "
+            "table, and charts below rather than shown as zero (which would misleadingly read "
+            "as 'no issues found'). Run download_gsv.py + run_inference.py for these "
+            "neighborhoods to fill them in.",
+            icon="ℹ️",
+        )
+
 equity = compute_equity_score(detections)
 
 # ---- Sidebar filters ----
@@ -218,7 +272,11 @@ st.divider()
 # ---- Neighborhood comparison table ----
 st.subheader("Neighborhood equity summary")
 display_table = filtered_equity.merge(
-    complaints_311, on="neighborhood", how="left"
+    complaints_311[["neighborhood", "reported_311_complaints", "source"]], on="neighborhood", how="left"
+)
+display_table["reported_311_complaints"] = display_table.apply(
+    lambda r: "N/A (no SD 311 coverage)" if r.get("source") == "no_311_coverage" else r["reported_311_complaints"],
+    axis=1,
 )
 display_table = display_table[
     ["neighborhood", "category", "total_detections", "severe_count", "light_count",
@@ -234,7 +292,8 @@ st.divider()
 
 # ---- H5 exploration: AI detections vs 311 reports ----
 st.subheader("AI detections vs. citizen 311 reports (H5)")
-h5_data = filtered_equity.merge(complaints_311, on="neighborhood", how="left")
+h5_data = filtered_equity.merge(complaints_311[["neighborhood", "reported_311_complaints", "source"]], on="neighborhood", how="left")
+h5_data = h5_data[h5_data["source"] != "no_311_coverage"]  # El Cajon has no SD 311 comparison
 if len(h5_data):
     h5_melt = h5_data.melt(
         id_vars=["neighborhood", "category"],
@@ -250,11 +309,11 @@ if len(h5_data):
     st.plotly_chart(fig_h5, use_container_width=True)
     st.caption(
         "Cross-validates AI-detected infrastructure conditions against citizen-reported "
-        "311 complaints, surfacing where underserved neighborhoods may be under-reporting "
-        "relative to observed conditions."
+        "311 complaints. El Cajon is excluded here — it's a separate incorporated city with "
+        "no San Diego 311 coverage."
     )
 
 st.caption(
-    "Data engine: Google Street View + YOLOv8-seg (v4, 6-class) · San Diego 311 Get It Done · "
-    "MOC-LLAB, SDSU"
+    "Data engine: Google Street View + YOLOv8-seg (yolov8m-seg, 6-class, mAP50 0.577) · "
+    "San Diego 311 Get It Done · MOC-LLAB, SDSU"
 )

@@ -37,21 +37,53 @@ infrastructure monitoring. Future research will integrate video collected
 from municipal service vehicles to support continuous, near-real-time
 urban infrastructure assessment.
 
-## Model
+## Model & training results
 
 YOLOv8-seg training notebook: https://colab.research.google.com/drive/1rIZhge7mEPGKe_ebf4KbcLQaIWR-7dry
 
-## Dashboard — Streamlit shell
+Current production weights: `yolov8m-seg`, 60 epochs, 6 classes.
 
-Streamlit shell for the project. Currently running on **placeholder data**
-so the layout, filters, and charts can be reviewed and iterated on while
-the v4 model finishes real neighborhood inference.
+| Class | mAP50 |
+|---|---|
+| Bike_Lane | 0.921 |
+| Side_Walk | 0.847 |
+| Longitudinal Crack | 0.550 |
+| Pothole | 0.501 |
+| Alligator Crack | 0.328 |
+| Transverse Crack | 0.318 |
+| **All classes** | **0.577** |
 
-### Run it
+Alligator Crack and Transverse Crack are the weakest classes — the
+normalized confusion matrix shows both are frequently confused with
+background (0.47 and 0.22 of true instances misclassified as background,
+respectively), so real Severe/Light counts are likely undercounts,
+particularly Severe (Alligator Crack feeds into that bucket). This should
+be kept in mind when interpreting equity scores until the model is
+retrained with more examples of those two classes.
+
+## Data pipeline
+
+1. **`process_311.py`** — downloads and filters San Diego's Get It Done
+   311 dataset down to the 7 study neighborhoods (no API key needed).
+   El Cajon is excluded — it's a separate incorporated city, not covered
+   by San Diego's 311 system.
+2. **`download_gsv.py`** — pulls new Google Street View imagery across the
+   7 neighborhoods via the Street View Static API (needs a `GOOGLE_MAPS_API_KEY`
+   in a local `.env`).
+3. **`run_inference.py`** — runs the trained model over geotagged imagery
+   and writes `data/detections.csv` in the schema the dashboard reads.
+
+The current `data/detections.csv` was produced from the geotagged subset
+of the annotated training/validation image set (images whose filenames
+carry real lat/lon from prior Street View collection), snapped to the
+nearest of the 7 study neighborhoods within a 3km radius. Anything farther
+than that was dropped rather than force-assigned.
+
+## Dashboard
 
 ```bash
-pip install -r requirements.txt
-streamlit run app.py
+pip install -r dashboard/requirements.txt
+streamlit run dashboard/app.py
 ```
 
 Opens at `http://localhost:8501`.
@@ -62,34 +94,12 @@ Opens at `http://localhost:8501`.
 - **Map** — bubble map of the 7 neighborhoods, sized by equity score, colored by Underserved/Wealthier
 - **Class breakdown chart** — detections by infrastructure class
 - **Neighborhood summary table** — detections, severity split, equity score, 311 complaints
-- **H5 comparison** — AI-detected counts vs. 311 reported counts per neighborhood
+- **H5 comparison** — AI-detected counts vs. 311 reported counts per neighborhood (El Cajon excluded — no 311 coverage)
 
-### Swapping in real data
-
-Everything placeholder lives in the **DATA LAYER** section at the top of `app.py`,
-in two functions:
-
-| Function | Replace with |
-|---|---|
-| `load_placeholder_detections()` | Real YOLOv8-seg inference output across the 7 neighborhoods. Needs columns: `neighborhood`, `category`, `class_name`, `severity`, `confidence`, `lat`, `lon` |
-| `load_placeholder_311()` | Real San Diego 311 Get It Done complaint counts. Needs: `neighborhood`, `reported_311_complaints` |
-
-As long as the replacement functions return DataFrames with the same column
-names, nothing else in the file needs to change — the UI, map, and charts all
-read from these functions.
-
-The `SEVERITY_MAP` dictionary controls the Severe/Light grouping
-(Pothole + Alligator Crack = Severe, Longitudinal + Transverse Crack = Light).
-Update this if the severity grouping logic changes.
+`app.py` automatically uses real data from `data/detections.csv` and
+`data/complaints_311.csv` when those files exist, and falls back to
+seeded placeholder data otherwise — no code changes needed either way.
 
 The `compute_equity_score()` function has a placeholder weighting formula
 (Severe = 2x, Light = 1x). **This should be finalized with Dr. Fernandez**
-before it's used in any real reporting — flagged in the code as a TODO-style
-comment.
-
-### Known limitations to keep in mind
-
-- Alligator Crack and Transverse Crack have lower model accuracy (mAP50 ~0.32
-  each per the v4 training run), so real Severe/Light counts once plugged in
-  will likely be undercounts, particularly for Severe, since Alligator Crack
-  feeds into that bucket.
+before it's used in any real reporting.

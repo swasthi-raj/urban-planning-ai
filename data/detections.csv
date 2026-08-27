@@ -1,0 +1,797 @@
+neighborhood,category,class_name,severity,confidence,lat,lon,source_image
+El Cajon,Underserved,Longitudinal Crack,Light,0.592,32.791917,-116.965929,img_0000_N_32-791917_-116-965929_jpg.rf.19c3af6ea61253452f48e10db6d6f5ea.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.486,32.791917,-116.965929,img_0000_N_32-791917_-116-965929_jpg.rf.19c3af6ea61253452f48e10db6d6f5ea.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.392,32.791917,-116.965929,img_0000_N_32-791917_-116-965929_jpg.rf.19c3af6ea61253452f48e10db6d6f5ea.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.302,32.791917,-116.965929,img_0000_N_32-791917_-116-965929_jpg.rf.19c3af6ea61253452f48e10db6d6f5ea.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.259,32.791917,-116.965929,img_0000_N_32-791917_-116-965929_jpg.rf.19c3af6ea61253452f48e10db6d6f5ea.jpg
+El Cajon,Underserved,Pothole,Severe,0.539,32.791917,-116.965929,img_0001_E_32-791917_-116-965929_jpg.rf.2d11f1444c2359a5ebb02d181c04d2fe.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.28,32.829917,-117.274731,img_0001_E_32-829917_-117-274731_jpg.rf.dc8dabf792ef0c9cda4e89ea1439bb1c.jpg
+City Heights,Underserved,Transverse Crack,Light,0.33,32.742817,-117.107928,img_0002_S_32-742817_-117-107928_jpg.rf.386b7aba229284138bd4f9c903c98403.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.762,32.791917,-116.965929,img_0002_S_32-791917_-116-965929_jpg.rf.61e0930d4803e46bf199d75ffe246d08.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.515,32.791917,-116.965929,img_0002_S_32-791917_-116-965929_jpg.rf.61e0930d4803e46bf199d75ffe246d08.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.448,32.791917,-116.965929,img_0002_S_32-791917_-116-965929_jpg.rf.61e0930d4803e46bf199d75ffe246d08.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.402,32.791917,-116.965929,img_0002_S_32-791917_-116-965929_jpg.rf.61e0930d4803e46bf199d75ffe246d08.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.391,32.791917,-116.965929,img_0002_S_32-791917_-116-965929_jpg.rf.61e0930d4803e46bf199d75ffe246d08.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.386,32.791917,-116.965929,img_0002_S_32-791917_-116-965929_jpg.rf.61e0930d4803e46bf199d75ffe246d08.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.378,32.791917,-116.965929,img_0002_S_32-791917_-116-965929_jpg.rf.61e0930d4803e46bf199d75ffe246d08.jpg
+City Heights,Underserved,Side_Walk,N/A,0.635,32.742817,-117.107928,img_0003_W_32-742817_-117-107928_jpg.rf.16ad42c09e712bfbaa1ca2cf14e32eb2.jpg
+City Heights,Underserved,Pothole,Severe,0.314,32.742817,-117.107928,img_0003_W_32-742817_-117-107928_jpg.rf.16ad42c09e712bfbaa1ca2cf14e32eb2.jpg
+City Heights,Underserved,Pothole,Severe,0.26,32.742817,-117.107928,img_0003_W_32-742817_-117-107928_jpg.rf.16ad42c09e712bfbaa1ca2cf14e32eb2.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.286,32.742817,-117.107071,img_0004_N_32-742817_-117-107071_jpg.rf.43a03f8f0900b5830b26c863471078c2.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.306,32.791917,-116.965072,img_0004_N_32-791917_-116-965072_jpg.rf.2df72743462d2d1b0f1fcfe760e00e3a.jpg
+Barrio Logan,Underserved,Side_Walk,N/A,0.385,32.698717,-117.141569,img_0005_E_32-698717_-117-141569_jpg.rf.e5ddf569cd30de7849ad7a3dab54a63c.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.317,32.698717,-117.141569,img_0005_E_32-698717_-117-141569_jpg.rf.e5ddf569cd30de7849ad7a3dab54a63c.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.282,32.791917,-116.965072,img_0005_E_32-791917_-116-965072_jpg.rf.99075d67756b7f14a158e53013e1a68f.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.343,32.742817,-117.107071,img_0006_S_32-742817_-117-107071_jpg.rf.6f79bd0dafcd807578bc52981472a5a2.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.412,32.791917,-116.965072,img_0006_S_32-791917_-116-965072_jpg.rf.97a593ff900847f49186f2310659dda3.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.599,32.742817,-117.107071,img_0007_W_32-742817_-117-107071_jpg.rf.74b20f2c058e07cf6290148f7fc811b9.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.586,32.742817,-117.107071,img_0007_W_32-742817_-117-107071_jpg.rf.74b20f2c058e07cf6290148f7fc811b9.jpg
+City Heights,Underserved,Side_Walk,N/A,0.264,32.742817,-117.107071,img_0007_W_32-742817_-117-107071_jpg.rf.74b20f2c058e07cf6290148f7fc811b9.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.544,32.829917,-117.273873,img_0007_W_32-829917_-117-273873_jpg.rf.7ecdb0d86f8e0d3a70d66221690012c2.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.478,32.829917,-117.273873,img_0007_W_32-829917_-117-273873_jpg.rf.7ecdb0d86f8e0d3a70d66221690012c2.jpg
+City Heights,Underserved,Pothole,Severe,0.471,32.742817,-117.106214,img_0008_N_32-742817_-117-106214_jpg.rf.96ebbba342daae85fc45cdc5860bb925.jpg
+City Heights,Underserved,Pothole,Severe,0.396,32.742817,-117.106214,img_0008_N_32-742817_-117-106214_jpg.rf.96ebbba342daae85fc45cdc5860bb925.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.266,32.742817,-117.106214,img_0008_N_32-742817_-117-106214_jpg.rf.96ebbba342daae85fc45cdc5860bb925.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.384,32.791917,-116.964215,img_0008_N_32-791917_-116-964215_jpg.rf.b3f58ba8a95e2e73fcac2598d7a9ae18.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.449,32.829917,-117.273015,img_0008_N_32-829917_-117-273015_jpg.rf.deee1b83ecfb4055ac410c421fdb7591.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.259,32.829917,-117.273015,img_0008_N_32-829917_-117-273015_jpg.rf.deee1b83ecfb4055ac410c421fdb7591.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.396,32.829917,-117.273015,img_0009_E_32-829917_-117-273015_jpg.rf.66c08e88a103e1f6f41f4b3fcf65ac0c.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.291,32.829917,-117.273015,img_0009_E_32-829917_-117-273015_jpg.rf.66c08e88a103e1f6f41f4b3fcf65ac0c.jpg
+City Heights,Underserved,Pothole,Severe,0.276,32.742817,-117.106214,img_0010_S_32-742817_-117-106214_jpg.rf.6061905ee2d76d13027f1e914fb8547d.jpg
+El Cajon,Underserved,Pothole,Severe,0.263,32.791917,-116.964215,img_0010_S_32-791917_-116-964215_jpg.rf.fed9999144719e8b9a23328a9eed5d52.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.429,32.829917,-117.273015,img_0010_S_32-829917_-117-273015_jpg.rf.1b6d021c3eac92edce9038cda5527775.jpg
+City Heights,Underserved,Transverse Crack,Light,0.439,32.742817,-117.105357,img_0012_N_32-742817_-117-105357_jpg.rf.53f1a846caac0f44a373e206b716d3eb.jpg
+City Heights,Underserved,Side_Walk,N/A,0.277,32.742817,-117.105357,img_0012_N_32-742817_-117-105357_jpg.rf.53f1a846caac0f44a373e206b716d3eb.jpg
+City Heights,Underserved,Pothole,Severe,0.269,32.742817,-117.105357,img_0012_N_32-742817_-117-105357_jpg.rf.53f1a846caac0f44a373e206b716d3eb.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.425,32.791917,-116.963357,img_0012_N_32-791917_-116-963357_jpg.rf.16ce599ed3b78baebd3d508212725921.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.345,32.791917,-116.963357,img_0012_N_32-791917_-116-963357_jpg.rf.16ce599ed3b78baebd3d508212725921.jpg
+La Jolla,Wealthier,Pothole,Severe,0.698,32.829917,-117.272158,img_0012_N_32-829917_-117-272158_jpg.rf.fc6c5a553beea15f3612c8acc52fadfe.jpg
+La Jolla,Wealthier,Pothole,Severe,0.637,32.829917,-117.272158,img_0012_N_32-829917_-117-272158_jpg.rf.fc6c5a553beea15f3612c8acc52fadfe.jpg
+La Jolla,Wealthier,Pothole,Severe,0.417,32.829917,-117.272158,img_0013_E_32-829917_-117-272158_jpg.rf.531170b1d1d15442a344109e1a962964.jpg
+La Jolla,Wealthier,Pothole,Severe,0.346,32.829917,-117.272158,img_0013_E_32-829917_-117-272158_jpg.rf.531170b1d1d15442a344109e1a962964.jpg
+City Heights,Underserved,Pothole,Severe,0.536,32.742817,-117.105357,img_0014_S_32-742817_-117-105357_jpg.rf.6183aacfd515d59c715e1611f56d43de.jpg
+El Cajon,Underserved,Pothole,Severe,0.462,32.791917,-116.963357,img_0014_S_32-791917_-116-963357_jpg.rf.f23961c9e5b99e99dea173ed3e1c461d.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.43,32.791917,-116.963357,img_0014_S_32-791917_-116-963357_jpg.rf.f23961c9e5b99e99dea173ed3e1c461d.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.375,32.791917,-116.963357,img_0014_S_32-791917_-116-963357_jpg.rf.f23961c9e5b99e99dea173ed3e1c461d.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.359,32.791917,-116.963357,img_0014_S_32-791917_-116-963357_jpg.rf.f23961c9e5b99e99dea173ed3e1c461d.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.339,32.791917,-116.963357,img_0014_S_32-791917_-116-963357_jpg.rf.f23961c9e5b99e99dea173ed3e1c461d.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.274,32.791917,-116.963357,img_0014_S_32-791917_-116-963357_jpg.rf.f23961c9e5b99e99dea173ed3e1c461d.jpg
+La Jolla,Wealthier,Pothole,Severe,0.277,32.829917,-117.272158,img_0014_S_32-829917_-117-272158_jpg.rf.39319c1796fb4480756a29075faaf1e6.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.554,32.742817,-117.105357,img_0015_W_32-742817_-117-105357_jpg.rf.2b8eb9a71e5f3f76c9f95090f25f29b9.jpg
+City Heights,Underserved,Transverse Crack,Light,0.299,32.742817,-117.105357,img_0015_W_32-742817_-117-105357_jpg.rf.2b8eb9a71e5f3f76c9f95090f25f29b9.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.657,32.791917,-116.963357,img_0015_W_32-791917_-116-963357_jpg.rf.d0c1ea715cedcf1e3bf4be2529ccea7e.jpg
+El Cajon,Underserved,Pothole,Severe,0.363,32.791917,-116.963357,img_0015_W_32-791917_-116-963357_jpg.rf.d0c1ea715cedcf1e3bf4be2529ccea7e.jpg
+La Jolla,Wealthier,Pothole,Severe,0.266,32.829917,-117.272158,img_0015_W_32-829917_-117-272158_jpg.rf.6ba82b34e5f5319b9a6ffac089b2081c.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.722,32.698717,-117.139,img_0016_N_32-698717_-117-139_jpg.rf.e6a5556e3a94843260d968073e64a23c.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.396,32.698717,-117.139,img_0016_N_32-698717_-117-139_jpg.rf.e6a5556e3a94843260d968073e64a23c.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.616,32.742817,-117.1045,img_0016_N_32-742817_-117-1045_jpg.rf.cf1a446806f6fbdb0f90ebdcf81cbd0a.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.316,32.742817,-117.1045,img_0016_N_32-742817_-117-1045_jpg.rf.cf1a446806f6fbdb0f90ebdcf81cbd0a.jpg
+City Heights,Underserved,Transverse Crack,Light,0.306,32.742817,-117.1045,img_0016_N_32-742817_-117-1045_jpg.rf.cf1a446806f6fbdb0f90ebdcf81cbd0a.jpg
+City Heights,Underserved,Transverse Crack,Light,0.294,32.742817,-117.1045,img_0016_N_32-742817_-117-1045_jpg.rf.cf1a446806f6fbdb0f90ebdcf81cbd0a.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.271,32.742817,-117.1045,img_0016_N_32-742817_-117-1045_jpg.rf.cf1a446806f6fbdb0f90ebdcf81cbd0a.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.606,32.698717,-117.139,img_0017_E_32-698717_-117-139_jpg.rf.5f878595e287f2ec32c050b6b992733c.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.602,32.742817,-117.1045,img_0017_E_32-742817_-117-1045_jpg.rf.cdab8155a154073021f10ffad6b0364a.jpg
+City Heights,Underserved,Transverse Crack,Light,0.321,32.742817,-117.1045,img_0017_E_32-742817_-117-1045_jpg.rf.cdab8155a154073021f10ffad6b0364a.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.395,32.829917,-117.270442,img_0017_E_32-829917_-117-270442_jpg.rf.394af7d03b034394439b269986afc2b7.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.389,32.829917,-117.270442,img_0017_E_32-829917_-117-270442_jpg.rf.394af7d03b034394439b269986afc2b7.jpg
+La Jolla,Wealthier,Pothole,Severe,0.259,32.829917,-117.270442,img_0017_E_32-829917_-117-270442_jpg.rf.394af7d03b034394439b269986afc2b7.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.455,32.698717,-117.139,img_0018_S_32-698717_-117-139_jpg.rf.d14b48ac4bc23b280fb39bf836f0ea9b.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.408,32.742817,-117.1045,img_0018_S_32-742817_-117-1045_jpg.rf.fd3c6d69e2021a697c83a57bffafdad1.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.336,32.742817,-117.1045,img_0018_S_32-742817_-117-1045_jpg.rf.fd3c6d69e2021a697c83a57bffafdad1.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.47,32.698717,-117.139,img_0019_W_32-698717_-117-139_jpg.rf.8589bd33fce3f3ba3acb94a9d49df75f.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.394,32.698717,-117.139,img_0019_W_32-698717_-117-139_jpg.rf.8589bd33fce3f3ba3acb94a9d49df75f.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.364,32.698717,-117.139,img_0019_W_32-698717_-117-139_jpg.rf.8589bd33fce3f3ba3acb94a9d49df75f.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.253,32.698717,-117.139,img_0019_W_32-698717_-117-139_jpg.rf.8589bd33fce3f3ba3acb94a9d49df75f.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.326,32.791917,-116.9625,img_0019_W_32-791917_-116-9625_jpg.rf.2b246c35f0dec5177e6d5580fb96961c.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.329,32.829917,-117.270442,img_0019_W_32-829917_-117-270442_jpg.rf.a81f348074ae06f3011067dce9b3c6f8.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.266,32.829917,-117.270442,img_0019_W_32-829917_-117-270442_jpg.rf.a81f348074ae06f3011067dce9b3c6f8.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.257,32.829917,-117.270442,img_0019_W_32-829917_-117-270442_jpg.rf.a81f348074ae06f3011067dce9b3c6f8.jpg
+La Jolla,Wealthier,Pothole,Severe,0.606,32.829917,-117.269585,img_0020_N_32-829917_-117-269585_jpg.rf.808b03e5131c208a94ead9256c835bfd.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.27,32.829917,-117.269585,img_0020_N_32-829917_-117-269585_jpg.rf.808b03e5131c208a94ead9256c835bfd.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.425,32.698717,-117.138144,img_0021_E_32-698717_-117-138144_jpg.rf.b1f57d49050dcd38bb66ce0fcde9f8b5.jpg
+City Heights,Underserved,Pothole,Severe,0.473,32.742817,-117.103643,img_0021_E_32-742817_-117-103643_jpg.rf.adfc29fb2531b8815932a7c3d8b5a8d6.jpg
+City Heights,Underserved,Side_Walk,N/A,0.313,32.742817,-117.103643,img_0022_S_32-742817_-117-103643_jpg.rf.c3848bd0650d52017dfd7ef102a7be40.jpg
+City Heights,Underserved,Pothole,Severe,0.251,32.742817,-117.103643,img_0022_S_32-742817_-117-103643_jpg.rf.c3848bd0650d52017dfd7ef102a7be40.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.735,32.829917,-117.269585,img_0022_S_32-829917_-117-269585_jpg.rf.c6c62bd0f49347e0640dbf46c57445c2.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.404,32.698717,-117.138144,img_0023_W_32-698717_-117-138144_jpg.rf.c7fce168b80ac5e70a8e619f38702ad2.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.402,32.698717,-117.138144,img_0023_W_32-698717_-117-138144_jpg.rf.c7fce168b80ac5e70a8e619f38702ad2.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.328,32.698717,-117.138144,img_0023_W_32-698717_-117-138144_jpg.rf.c7fce168b80ac5e70a8e619f38702ad2.jpg
+Barrio Logan,Underserved,Pothole,Severe,0.368,32.698717,-117.137287,img_0024_N_32-698717_-117-137287_jpg.rf.33fbacd775d375c0cdce0f36f6fe4e97.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.563,32.742817,-117.102786,img_0024_N_32-742817_-117-102786_jpg.rf.bbe99c96b82279f7c35e61fd84c8f8d3.jpg
+City Heights,Underserved,Transverse Crack,Light,0.433,32.742817,-117.102786,img_0024_N_32-742817_-117-102786_jpg.rf.bbe99c96b82279f7c35e61fd84c8f8d3.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.26,32.742817,-117.102786,img_0024_N_32-742817_-117-102786_jpg.rf.bbe99c96b82279f7c35e61fd84c8f8d3.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.302,32.829917,-117.268727,img_0024_N_32-829917_-117-268727_jpg.rf.16f82ac4fc0dc36e1efb4a4309b7354b.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.284,32.829917,-117.268727,img_0024_N_32-829917_-117-268727_jpg.rf.16f82ac4fc0dc36e1efb4a4309b7354b.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.269,32.829917,-117.268727,img_0024_N_32-829917_-117-268727_jpg.rf.16f82ac4fc0dc36e1efb4a4309b7354b.jpg
+City Heights,Underserved,Pothole,Severe,0.349,32.742817,-117.102786,img_0025_E_32-742817_-117-102786_jpg.rf.f91e038d80f5fb391075ededee581c69.jpg
+City Heights,Underserved,Pothole,Severe,0.315,32.742817,-117.102786,img_0025_E_32-742817_-117-102786_jpg.rf.f91e038d80f5fb391075ededee581c69.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.452,32.829917,-117.268727,img_0025_E_32-829917_-117-268727_jpg.rf.7aab3ac5de0f5b46e50ad4d8e903f257.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.393,32.829917,-117.268727,img_0025_E_32-829917_-117-268727_jpg.rf.7aab3ac5de0f5b46e50ad4d8e903f257.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.276,32.829917,-117.268727,img_0025_E_32-829917_-117-268727_jpg.rf.7aab3ac5de0f5b46e50ad4d8e903f257.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.547,32.742817,-117.102786,img_0026_S_32-742817_-117-102786_jpg.rf.99396f7447cc04edc7661b06f41b1608.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.491,32.829917,-117.268727,img_0026_S_32-829917_-117-268727_jpg.rf.00bbf73568a2d673b38e9f63208f7ded.jpg
+La Jolla,Wealthier,Pothole,Severe,0.324,32.829917,-117.268727,img_0026_S_32-829917_-117-268727_jpg.rf.00bbf73568a2d673b38e9f63208f7ded.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.886,32.829917,-117.268727,img_0027_W_32-829917_-117-268727_jpg.rf.bc8e9cd35d78cd8d5246df3c734f3e4e.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.462,32.829917,-117.268727,img_0027_W_32-829917_-117-268727_jpg.rf.bc8e9cd35d78cd8d5246df3c734f3e4e.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.394,32.829917,-117.268727,img_0027_W_32-829917_-117-268727_jpg.rf.bc8e9cd35d78cd8d5246df3c734f3e4e.jpg
+Barrio Logan,Underserved,Pothole,Severe,0.541,32.698717,-117.136431,img_0028_N_32-698717_-117-136431_jpg.rf.7c5596072d54b6f008a3b2856b649fe5.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.372,32.698717,-117.136431,img_0028_N_32-698717_-117-136431_jpg.rf.7c5596072d54b6f008a3b2856b649fe5.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.694,32.791917,-116.959928,img_0028_N_32-791917_-116-959928_jpg.rf.1fffb4edd1493fbb084d4817dbcea305.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.602,32.791917,-116.959928,img_0028_N_32-791917_-116-959928_jpg.rf.1fffb4edd1493fbb084d4817dbcea305.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.479,32.791917,-116.959928,img_0028_N_32-791917_-116-959928_jpg.rf.1fffb4edd1493fbb084d4817dbcea305.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.477,32.791917,-116.959928,img_0028_N_32-791917_-116-959928_jpg.rf.1fffb4edd1493fbb084d4817dbcea305.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.424,32.791917,-116.959928,img_0028_N_32-791917_-116-959928_jpg.rf.1fffb4edd1493fbb084d4817dbcea305.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.374,32.791917,-116.959928,img_0028_N_32-791917_-116-959928_jpg.rf.1fffb4edd1493fbb084d4817dbcea305.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.347,32.791917,-116.959928,img_0028_N_32-791917_-116-959928_jpg.rf.1fffb4edd1493fbb084d4817dbcea305.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.32,32.791917,-116.959928,img_0028_N_32-791917_-116-959928_jpg.rf.1fffb4edd1493fbb084d4817dbcea305.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.282,32.791917,-116.959928,img_0028_N_32-791917_-116-959928_jpg.rf.1fffb4edd1493fbb084d4817dbcea305.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.395,32.698717,-117.136431,img_0029_E_32-698717_-117-136431_jpg.rf.532f0c4a4d75ce75a6269b4ff91cdac8.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.304,32.791917,-116.959928,img_0029_E_32-791917_-116-959928_jpg.rf.656b1dce930622e9132cc34bb6c8a800.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.512,32.698717,-117.136431,img_0030_S_32-698717_-117-136431_jpg.rf.07bcf281d9b2a5a2749af7ff6efb8aca.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.329,32.698717,-117.136431,img_0030_S_32-698717_-117-136431_jpg.rf.07bcf281d9b2a5a2749af7ff6efb8aca.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.268,32.698717,-117.136431,img_0030_S_32-698717_-117-136431_jpg.rf.07bcf281d9b2a5a2749af7ff6efb8aca.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.654,32.742817,-117.101929,img_0030_S_32-742817_-117-101929_jpg.rf.28bde559ff6a217d00d0cf7e8d4ac6be.jpg
+El Cajon,Underserved,Pothole,Severe,0.714,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.556,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.439,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.414,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+El Cajon,Underserved,Pothole,Severe,0.395,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.358,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.35,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.32,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.315,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.314,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.265,32.791917,-116.959928,img_0030_S_32-791917_-116-959928_jpg.rf.2b955d0c1b7aee2e7f59c0d3c1245c21.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.368,32.698717,-117.136431,img_0031_W_32-698717_-117-136431_jpg.rf.97dd197ff8a50c097c2bb3f6bb1e820c.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.312,32.698717,-117.136431,img_0031_W_32-698717_-117-136431_jpg.rf.97dd197ff8a50c097c2bb3f6bb1e820c.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.31,32.698717,-117.136431,img_0031_W_32-698717_-117-136431_jpg.rf.97dd197ff8a50c097c2bb3f6bb1e820c.jpg
+City Heights,Underserved,Side_Walk,N/A,0.288,32.742817,-117.101929,img_0031_W_32-742817_-117-101929_jpg.rf.35552b4f720f7a7f8855fb630b759c47.jpg
+City Heights,Underserved,Side_Walk,N/A,0.256,32.742817,-117.101929,img_0031_W_32-742817_-117-101929_jpg.rf.35552b4f720f7a7f8855fb630b759c47.jpg
+City Heights,Underserved,Side_Walk,N/A,0.251,32.742817,-117.101929,img_0031_W_32-742817_-117-101929_jpg.rf.35552b4f720f7a7f8855fb630b759c47.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.482,32.791917,-116.959928,img_0031_W_32-791917_-116-959928_jpg.rf.7f9de2a5fabf01a69f716d595950f79a.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.285,32.791917,-116.959928,img_0031_W_32-791917_-116-959928_jpg.rf.7f9de2a5fabf01a69f716d595950f79a.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.25,32.830638,-117.274731,img_0031_W_32-830638_-117-274731_jpg.rf.163ff508141cf72167b7ccae65958843.jpg
+City Heights,Underserved,Pothole,Severe,0.323,32.743538,-117.107928,img_0032_N_32-743538_-117-107928_jpg.rf.518771faab9aabc2f9f5d198f2d5de7b.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.283,32.792638,-116.965929,img_0032_N_32-792638_-116-965929_jpg.rf.e48f73cd0679c1b346d5b06a03c7ecd2.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.331,32.830638,-117.273873,img_0032_N_32-830638_-117-273873_jpg.rf.09489ddd0136aa8f75ad001b86e2a8be.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.322,32.830638,-117.273873,img_0032_N_32-830638_-117-273873_jpg.rf.09489ddd0136aa8f75ad001b86e2a8be.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.277,32.830638,-117.273873,img_0032_N_32-830638_-117-273873_jpg.rf.09489ddd0136aa8f75ad001b86e2a8be.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.252,32.830638,-117.273873,img_0032_N_32-830638_-117-273873_jpg.rf.09489ddd0136aa8f75ad001b86e2a8be.jpg
+City Heights,Underserved,Pothole,Severe,0.383,32.743538,-117.107928,img_0033_E_32-743538_-117-107928_jpg.rf.595869a749f704a6393f66627ba239e8.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.614,32.792638,-116.965929,img_0033_E_32-792638_-116-965929_jpg.rf.e35885f6f038c0e6aef354569bcaf611.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.436,32.792638,-116.965929,img_0033_E_32-792638_-116-965929_jpg.rf.e35885f6f038c0e6aef354569bcaf611.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.411,32.792638,-116.965929,img_0033_E_32-792638_-116-965929_jpg.rf.e35885f6f038c0e6aef354569bcaf611.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.347,32.792638,-116.965929,img_0033_E_32-792638_-116-965929_jpg.rf.e35885f6f038c0e6aef354569bcaf611.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.298,32.792638,-116.965929,img_0033_E_32-792638_-116-965929_jpg.rf.e35885f6f038c0e6aef354569bcaf611.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.671,32.830638,-117.273873,img_0033_E_32-830638_-117-273873_jpg.rf.50bebaada7ac9b62597d0296462b5abc.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.37,32.830638,-117.273873,img_0033_E_32-830638_-117-273873_jpg.rf.50bebaada7ac9b62597d0296462b5abc.jpg
+El Cajon,Underserved,Pothole,Severe,0.284,32.792638,-116.965929,img_0034_S_32-792638_-116-965929_jpg.rf.8225d738a9a5666bf8d4e2fec5a54f20.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.264,32.792638,-116.965929,img_0034_S_32-792638_-116-965929_jpg.rf.8225d738a9a5666bf8d4e2fec5a54f20.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.518,32.830638,-117.273873,img_0034_S_32-830638_-117-273873_jpg.rf.6fef23b52ab76a23aaf5ee107cd08e8c.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.385,32.830638,-117.273873,img_0034_S_32-830638_-117-273873_jpg.rf.6fef23b52ab76a23aaf5ee107cd08e8c.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.464,32.792638,-116.965929,img_0035_W_32-792638_-116-965929_jpg.rf.8b954c83b1b49a2821677762942b0d98.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.257,32.792638,-116.965929,img_0035_W_32-792638_-116-965929_jpg.rf.8b954c83b1b49a2821677762942b0d98.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.257,32.830638,-117.273873,img_0035_W_32-830638_-117-273873_jpg.rf.b8868af28eff0d02f625ed812354fefb.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.521,32.743538,-117.107071,img_0036_N_32-743538_-117-107071_jpg.rf.5f42c427dec0fdf9bd6ed05cf58f5ea7.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.324,32.743538,-117.107071,img_0036_N_32-743538_-117-107071_jpg.rf.5f42c427dec0fdf9bd6ed05cf58f5ea7.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.301,32.830638,-117.273015,img_0036_N_32-830638_-117-273015_jpg.rf.beea619c04c844e5afd57669edcb13aa.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.489,32.792638,-116.965072,img_0037_E_32-792638_-116-965072_jpg.rf.158a0ab2cec914a5b342326d0e04c56d.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.447,32.792638,-116.965072,img_0037_E_32-792638_-116-965072_jpg.rf.158a0ab2cec914a5b342326d0e04c56d.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.399,32.792638,-116.965072,img_0037_E_32-792638_-116-965072_jpg.rf.158a0ab2cec914a5b342326d0e04c56d.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.385,32.792638,-116.965072,img_0037_E_32-792638_-116-965072_jpg.rf.158a0ab2cec914a5b342326d0e04c56d.jpg
+El Cajon,Underserved,Pothole,Severe,0.301,32.792638,-116.965072,img_0037_E_32-792638_-116-965072_jpg.rf.158a0ab2cec914a5b342326d0e04c56d.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.266,32.830638,-117.273015,img_0037_E_32-830638_-117-273015_jpg.rf.d451fde8771b0e9701977ad800dd533f.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.513,32.699438,-117.141569,img_0038_S_32-699438_-117-141569_jpg.rf.ca81ec0671c5daab9748429c1bffc747.jpg
+Barrio Logan,Underserved,Side_Walk,N/A,0.257,32.699438,-117.141569,img_0038_S_32-699438_-117-141569_jpg.rf.ca81ec0671c5daab9748429c1bffc747.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.315,32.699438,-117.141569,img_0039_W_32-699438_-117-141569_jpg.rf.85fd79b1c7cd0c8862bf683a6e289210.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.359,32.792638,-116.965072,img_0039_W_32-792638_-116-965072_jpg.rf.e990a6e1b4bac64b8b2090612f67f6e7.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.324,32.792638,-116.965072,img_0039_W_32-792638_-116-965072_jpg.rf.e990a6e1b4bac64b8b2090612f67f6e7.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.29,32.792638,-116.965072,img_0039_W_32-792638_-116-965072_jpg.rf.e990a6e1b4bac64b8b2090612f67f6e7.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.3,32.830638,-117.273015,img_0039_W_32-830638_-117-273015_jpg.rf.77c1470533be646881b90b64c0f0c295.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.49,32.792638,-116.964215,img_0040_N_32-792638_-116-964215_jpg.rf.20b4c0ced6c479ec2b3a93ab2a8125eb.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.407,32.792638,-116.964215,img_0040_N_32-792638_-116-964215_jpg.rf.20b4c0ced6c479ec2b3a93ab2a8125eb.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.48,32.830638,-117.272158,img_0041_E_32-830638_-117-272158_jpg.rf.422998cc1e40cb442df362e54691ba94.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.393,32.830638,-117.272158,img_0041_E_32-830638_-117-272158_jpg.rf.422998cc1e40cb442df362e54691ba94.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.324,32.830638,-117.272158,img_0041_E_32-830638_-117-272158_jpg.rf.422998cc1e40cb442df362e54691ba94.jpg
+Barrio Logan,Underserved,Pothole,Severe,0.595,32.699438,-117.140713,img_0042_S_32-699438_-117-140713_jpg.rf.e7d17db3bd5b20d7f988a85be939713f.jpg
+Barrio Logan,Underserved,Pothole,Severe,0.335,32.699438,-117.140713,img_0042_S_32-699438_-117-140713_jpg.rf.e7d17db3bd5b20d7f988a85be939713f.jpg
+City Heights,Underserved,Transverse Crack,Light,0.278,32.743538,-117.106214,img_0042_S_32-743538_-117-106214_jpg.rf.0310cfef5409bdf061cff63afba5f438.jpg
+City Heights,Underserved,Pothole,Severe,0.254,32.743538,-117.106214,img_0042_S_32-743538_-117-106214_jpg.rf.0310cfef5409bdf061cff63afba5f438.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.644,32.792638,-116.964215,img_0042_S_32-792638_-116-964215_jpg.rf.fccb8dd7f9862158b6391ce460635005.jpg
+La Jolla,Wealthier,Pothole,Severe,0.464,32.830638,-117.272158,img_0043_W_32-830638_-117-272158_jpg.rf.36230c54575b713da9309e572b07edc3.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.296,32.792638,-116.963357,img_0044_N_32-792638_-116-963357_jpg.rf.3734b658bfdf6cd2caa261c1d9e48231.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.278,32.792638,-116.963357,img_0044_N_32-792638_-116-963357_jpg.rf.3734b658bfdf6cd2caa261c1d9e48231.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.251,32.792638,-116.963357,img_0044_N_32-792638_-116-963357_jpg.rf.3734b658bfdf6cd2caa261c1d9e48231.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.301,32.792638,-116.963357,img_0045_E_32-792638_-116-963357_jpg.rf.5ed7be234dbd47eb26885196ba0d7214.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.43,32.743538,-117.105357,img_0046_S_32-743538_-117-105357_jpg.rf.8f1d477fb2b342f11c008bf95a978fe2.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.458,32.830638,-117.2713,img_0046_S_32-830638_-117-2713_jpg.rf.0db8919691bb6e502050a36f945b3e46.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.445,32.830638,-117.2713,img_0046_S_32-830638_-117-2713_jpg.rf.0db8919691bb6e502050a36f945b3e46.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.265,32.830638,-117.2713,img_0046_S_32-830638_-117-2713_jpg.rf.0db8919691bb6e502050a36f945b3e46.jpg
+El Cajon,Underserved,Pothole,Severe,0.534,32.792638,-116.963357,img_0047_W_32-792638_-116-963357_jpg.rf.803bbb943cee881db6a5b5f1807e7544.jpg
+El Cajon,Underserved,Pothole,Severe,0.429,32.792638,-116.963357,img_0047_W_32-792638_-116-963357_jpg.rf.803bbb943cee881db6a5b5f1807e7544.jpg
+El Cajon,Underserved,Pothole,Severe,0.318,32.792638,-116.963357,img_0047_W_32-792638_-116-963357_jpg.rf.803bbb943cee881db6a5b5f1807e7544.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.25,32.830638,-117.2713,img_0047_W_32-830638_-117-2713_jpg.rf.70fa9d9c203af8f1a43efd530f8ad548.jpg
+City Heights,Underserved,Transverse Crack,Light,0.485,32.743538,-117.1045,img_0048_N_32-743538_-117-1045_jpg.rf.af2cbe14265f3a97f9f339ff92d26d50.jpg
+City Heights,Underserved,Transverse Crack,Light,0.287,32.743538,-117.1045,img_0048_N_32-743538_-117-1045_jpg.rf.af2cbe14265f3a97f9f339ff92d26d50.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.272,32.743538,-117.1045,img_0048_N_32-743538_-117-1045_jpg.rf.af2cbe14265f3a97f9f339ff92d26d50.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.51,32.699438,-117.139,img_0049_E_32-699438_-117-139_jpg.rf.801ef681b58859a14ef0079ec25649ea.jpg
+Barrio Logan,Underserved,Pothole,Severe,0.251,32.699438,-117.139,img_0049_E_32-699438_-117-139_jpg.rf.801ef681b58859a14ef0079ec25649ea.jpg
+City Heights,Underserved,Transverse Crack,Light,0.337,32.743538,-117.1045,img_0049_E_32-743538_-117-1045_jpg.rf.67fb82e9a9f9d2e5f41dbc328165c004.jpg
+City Heights,Underserved,Transverse Crack,Light,0.279,32.743538,-117.1045,img_0049_E_32-743538_-117-1045_jpg.rf.67fb82e9a9f9d2e5f41dbc328165c004.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.314,32.792638,-116.9625,img_0049_E_32-792638_-116-9625_jpg.rf.3c12b819107e34d68d4840fbb13bd677.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.263,32.792638,-116.9625,img_0049_E_32-792638_-116-9625_jpg.rf.3c12b819107e34d68d4840fbb13bd677.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.572,32.743538,-117.1045,img_0050_S_32-743538_-117-1045_jpg.rf.b349cdd1a9b489d00ef4ffbb77f7ab51.jpg
+City Heights,Underserved,Transverse Crack,Light,0.466,32.743538,-117.1045,img_0050_S_32-743538_-117-1045_jpg.rf.b349cdd1a9b489d00ef4ffbb77f7ab51.jpg
+City Heights,Underserved,Transverse Crack,Light,0.44,32.743538,-117.1045,img_0050_S_32-743538_-117-1045_jpg.rf.b349cdd1a9b489d00ef4ffbb77f7ab51.jpg
+El Cajon,Underserved,Pothole,Severe,0.488,32.792638,-116.9625,img_0050_S_32-792638_-116-9625_jpg.rf.a6c2a8cffbffa3cafc7b10114d09479a.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.298,32.792638,-116.9625,img_0050_S_32-792638_-116-9625_jpg.rf.a6c2a8cffbffa3cafc7b10114d09479a.jpg
+La Jolla,Wealthier,Pothole,Severe,0.382,32.830638,-117.270442,img_0050_S_32-830638_-117-270442_jpg.rf.fa91baac30ba6cca9313f039492a6b2b.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.599,32.743538,-117.1045,img_0051_W_32-743538_-117-1045_jpg.rf.d0ea21505695f80221d1f19c9140683a.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.39,32.830638,-117.270442,img_0051_W_32-830638_-117-270442_jpg.rf.4a6607d34963408718c0fbc6fad6888d.jpg
+La Jolla,Wealthier,Pothole,Severe,0.322,32.830638,-117.270442,img_0051_W_32-830638_-117-270442_jpg.rf.4a6607d34963408718c0fbc6fad6888d.jpg
+City Heights,Underserved,Pothole,Severe,0.531,32.743538,-117.103643,img_0052_N_32-743538_-117-103643_jpg.rf.e6bfe25739e737fcd69da7886d51943c.jpg
+City Heights,Underserved,Pothole,Severe,0.369,32.743538,-117.103643,img_0052_N_32-743538_-117-103643_jpg.rf.e6bfe25739e737fcd69da7886d51943c.jpg
+City Heights,Underserved,Pothole,Severe,0.298,32.743538,-117.103643,img_0052_N_32-743538_-117-103643_jpg.rf.e6bfe25739e737fcd69da7886d51943c.jpg
+El Cajon,Underserved,Pothole,Severe,0.266,32.792638,-116.961643,img_0052_N_32-792638_-116-961643_jpg.rf.cf19f2a42dec0f7f7a3e4990f44b14f5.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.874,32.792638,-116.961643,img_0053_E_32-792638_-116-961643_jpg.rf.2331ea49fd4260d625eae873822053ed.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.421,32.792638,-116.961643,img_0053_E_32-792638_-116-961643_jpg.rf.2331ea49fd4260d625eae873822053ed.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.376,32.792638,-116.961643,img_0053_E_32-792638_-116-961643_jpg.rf.2331ea49fd4260d625eae873822053ed.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.278,32.792638,-116.961643,img_0053_E_32-792638_-116-961643_jpg.rf.2331ea49fd4260d625eae873822053ed.jpg
+City Heights,Underserved,Pothole,Severe,0.396,32.743538,-117.103643,img_0054_S_32-743538_-117-103643_jpg.rf.c0eae3405d9a0b705ea39637b180fb90.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.392,32.792638,-116.961643,img_0054_S_32-792638_-116-961643_jpg.rf.92b450ac83c9d6511a71784c7a5e367d.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.314,32.830638,-117.269585,img_0054_S_32-830638_-117-269585_jpg.rf.60fa5555eec86bda8622a26db982b8a7.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.258,32.830638,-117.269585,img_0054_S_32-830638_-117-269585_jpg.rf.60fa5555eec86bda8622a26db982b8a7.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.258,32.699438,-117.138144,img_0055_W_32-699438_-117-138144_jpg.rf.f656aacaac857331e8e3eaacf2f60298.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.714,32.792638,-116.961643,img_0055_W_32-792638_-116-961643_jpg.rf.6f5f0e0212d00ee59909dba4c11b012e.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.318,32.792638,-116.961643,img_0055_W_32-792638_-116-961643_jpg.rf.6f5f0e0212d00ee59909dba4c11b012e.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.295,32.792638,-116.961643,img_0055_W_32-792638_-116-961643_jpg.rf.6f5f0e0212d00ee59909dba4c11b012e.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.319,32.830638,-117.269585,img_0055_W_32-830638_-117-269585_jpg.rf.5f3ae06c5d54731a94e17b167f04c947.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.253,32.830638,-117.269585,img_0055_W_32-830638_-117-269585_jpg.rf.5f3ae06c5d54731a94e17b167f04c947.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.286,32.699438,-117.137287,img_0056_N_32-699438_-117-137287_jpg.rf.0f7c8a6e26e8261d3e873968300007c5.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.297,32.792638,-116.960785,img_0056_N_32-792638_-116-960785_jpg.rf.913f39d0a5c4fe4d3ce70c024c63a201.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.273,32.792638,-116.960785,img_0056_N_32-792638_-116-960785_jpg.rf.913f39d0a5c4fe4d3ce70c024c63a201.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.519,32.830638,-117.268727,img_0056_N_32-830638_-117-268727_jpg.rf.87f7fc5dc048aab08d08d47a79aa561f.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.515,32.699438,-117.137287,img_0057_E_32-699438_-117-137287_jpg.rf.878e95c61077c6b890f846b5d865f6e4.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.259,32.699438,-117.137287,img_0057_E_32-699438_-117-137287_jpg.rf.878e95c61077c6b890f846b5d865f6e4.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.255,32.699438,-117.137287,img_0057_E_32-699438_-117-137287_jpg.rf.878e95c61077c6b890f846b5d865f6e4.jpg
+City Heights,Underserved,Pothole,Severe,0.425,32.743538,-117.102786,img_0057_E_32-743538_-117-102786_jpg.rf.70d407e8df00a853f95092d8474eb430.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.745,32.792638,-116.960785,img_0057_E_32-792638_-116-960785_jpg.rf.3ab74731b069fca0321a831277c42867.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.485,32.792638,-116.960785,img_0057_E_32-792638_-116-960785_jpg.rf.3ab74731b069fca0321a831277c42867.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.401,32.792638,-116.960785,img_0057_E_32-792638_-116-960785_jpg.rf.3ab74731b069fca0321a831277c42867.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.733,32.699438,-117.137287,img_0058_S_32-699438_-117-137287_jpg.rf.6a848346a0fb01935dfee3c5374e0760.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.377,32.699438,-117.137287,img_0058_S_32-699438_-117-137287_jpg.rf.6a848346a0fb01935dfee3c5374e0760.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.372,32.699438,-117.137287,img_0058_S_32-699438_-117-137287_jpg.rf.6a848346a0fb01935dfee3c5374e0760.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.317,32.699438,-117.137287,img_0058_S_32-699438_-117-137287_jpg.rf.6a848346a0fb01935dfee3c5374e0760.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.296,32.699438,-117.137287,img_0058_S_32-699438_-117-137287_jpg.rf.6a848346a0fb01935dfee3c5374e0760.jpg
+City Heights,Underserved,Pothole,Severe,0.452,32.743538,-117.102786,img_0058_S_32-743538_-117-102786_jpg.rf.f5965c8fd3233dc4f09b97ba517e8201.jpg
+City Heights,Underserved,Pothole,Severe,0.334,32.743538,-117.102786,img_0058_S_32-743538_-117-102786_jpg.rf.f5965c8fd3233dc4f09b97ba517e8201.jpg
+City Heights,Underserved,Pothole,Severe,0.265,32.743538,-117.102786,img_0058_S_32-743538_-117-102786_jpg.rf.f5965c8fd3233dc4f09b97ba517e8201.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.392,32.792638,-116.960785,img_0058_S_32-792638_-116-960785_jpg.rf.599d11b9d1c23e632c16ffc21ff78ce6.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.362,32.792638,-116.960785,img_0058_S_32-792638_-116-960785_jpg.rf.599d11b9d1c23e632c16ffc21ff78ce6.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.292,32.699438,-117.137287,img_0059_W_32-699438_-117-137287_jpg.rf.c85cef588d94a507dfa937907ccb2a44.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.274,32.699438,-117.137287,img_0059_W_32-699438_-117-137287_jpg.rf.c85cef588d94a507dfa937907ccb2a44.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.252,32.699438,-117.137287,img_0059_W_32-699438_-117-137287_jpg.rf.c85cef588d94a507dfa937907ccb2a44.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.727,32.792638,-116.960785,img_0059_W_32-792638_-116-960785_jpg.rf.cb40ab681c31780d3634d9c4122b5659.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.521,32.792638,-116.960785,img_0059_W_32-792638_-116-960785_jpg.rf.cb40ab681c31780d3634d9c4122b5659.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.725,32.792638,-116.959928,img_0060_N_32-792638_-116-959928_jpg.rf.c91a0a55f2094c347e8774173ffa7c1c.jpg
+City Heights,Underserved,Transverse Crack,Light,0.366,32.743538,-117.101929,img_0061_E_32-743538_-117-101929_jpg.rf.0708983559419c8303ddab906ab7400c.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.56,32.792638,-116.959928,img_0061_E_32-792638_-116-959928_jpg.rf.13a9804971de271724f5d6f54244f26c.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.547,32.792638,-116.959928,img_0061_E_32-792638_-116-959928_jpg.rf.13a9804971de271724f5d6f54244f26c.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.453,32.792638,-116.959928,img_0061_E_32-792638_-116-959928_jpg.rf.13a9804971de271724f5d6f54244f26c.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.345,32.831359,-117.274731,img_0061_E_32-831359_-117-274731_jpg.rf.4fcc6ceee085a78fb444d4f96950e6be.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.28,32.743538,-117.101929,img_0062_S_32-743538_-117-101929_jpg.rf.6c2492ef3c58939850a3f7bbf209c313.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.405,32.792638,-116.959928,img_0062_S_32-792638_-116-959928_jpg.rf.7c2052062bfc4ccd01412402f88262aa.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.303,32.792638,-116.959928,img_0062_S_32-792638_-116-959928_jpg.rf.7c2052062bfc4ccd01412402f88262aa.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.301,32.792638,-116.959928,img_0062_S_32-792638_-116-959928_jpg.rf.7c2052062bfc4ccd01412402f88262aa.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.275,32.792638,-116.959928,img_0062_S_32-792638_-116-959928_jpg.rf.7c2052062bfc4ccd01412402f88262aa.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.252,32.792638,-116.959928,img_0062_S_32-792638_-116-959928_jpg.rf.7c2052062bfc4ccd01412402f88262aa.jpg
+City Heights,Underserved,Pothole,Severe,0.256,32.743538,-117.101929,img_0063_W_32-743538_-117-101929_jpg.rf.0fb57e14df8a0f1419ed2a4cc36a52c1.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.377,32.792638,-116.959928,img_0063_W_32-792638_-116-959928_jpg.rf.3f75e130222bbd54f3efa04d6e841a61.jpg
+La Jolla,Wealthier,Pothole,Severe,0.664,32.831359,-117.274731,img_0063_W_32-831359_-117-274731_jpg.rf.45a9309d5c8c59af880b3f5764e67800.jpg
+La Jolla,Wealthier,Pothole,Severe,0.412,32.831359,-117.274731,img_0063_W_32-831359_-117-274731_jpg.rf.45a9309d5c8c59af880b3f5764e67800.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.305,32.831359,-117.274731,img_0063_W_32-831359_-117-274731_jpg.rf.45a9309d5c8c59af880b3f5764e67800.jpg
+La Jolla,Wealthier,Pothole,Severe,0.266,32.831359,-117.274731,img_0063_W_32-831359_-117-274731_jpg.rf.45a9309d5c8c59af880b3f5764e67800.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.548,32.744259,-117.107928,img_0064_N_32-744259_-117-107928_jpg.rf.aaceb9db59bb222beeb0ab9439b995f8.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.38,32.793359,-116.965929,img_0064_N_32-793359_-116-965929_jpg.rf.b9c434ae14dcf8a9e22f35c5d855278a.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.326,32.793359,-116.965929,img_0064_N_32-793359_-116-965929_jpg.rf.b9c434ae14dcf8a9e22f35c5d855278a.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.291,32.793359,-116.965929,img_0064_N_32-793359_-116-965929_jpg.rf.b9c434ae14dcf8a9e22f35c5d855278a.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.261,32.793359,-116.965929,img_0064_N_32-793359_-116-965929_jpg.rf.b9c434ae14dcf8a9e22f35c5d855278a.jpg
+City Heights,Underserved,Transverse Crack,Light,0.73,32.744259,-117.107928,img_0065_E_32-744259_-117-107928_jpg.rf.e60f6283de4393924adab59c84fb4625.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.717,32.744259,-117.107928,img_0065_E_32-744259_-117-107928_jpg.rf.e60f6283de4393924adab59c84fb4625.jpg
+City Heights,Underserved,Transverse Crack,Light,0.432,32.744259,-117.107928,img_0065_E_32-744259_-117-107928_jpg.rf.e60f6283de4393924adab59c84fb4625.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.405,32.744259,-117.107928,img_0065_E_32-744259_-117-107928_jpg.rf.e60f6283de4393924adab59c84fb4625.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.272,32.744259,-117.107928,img_0065_E_32-744259_-117-107928_jpg.rf.e60f6283de4393924adab59c84fb4625.jpg
+City Heights,Underserved,Transverse Crack,Light,0.255,32.744259,-117.107928,img_0065_E_32-744259_-117-107928_jpg.rf.e60f6283de4393924adab59c84fb4625.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.255,32.744259,-117.107928,img_0065_E_32-744259_-117-107928_jpg.rf.e60f6283de4393924adab59c84fb4625.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.697,32.831359,-117.273873,img_0065_E_32-831359_-117-273873_jpg.rf.7f604b38119029db2ddf656aabe2b0c8.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.404,32.700159,-117.142426,img_0066_S_32-700159_-117-142426_jpg.rf.18165292c7ef5a902568faf4d89e9aa3.jpg
+City Heights,Underserved,Transverse Crack,Light,0.507,32.744259,-117.107928,img_0066_S_32-744259_-117-107928_jpg.rf.2ba01fbe76fe96168a39d5b72a5fb20a.jpg
+City Heights,Underserved,Transverse Crack,Light,0.418,32.744259,-117.107928,img_0066_S_32-744259_-117-107928_jpg.rf.2ba01fbe76fe96168a39d5b72a5fb20a.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.306,32.744259,-117.107928,img_0066_S_32-744259_-117-107928_jpg.rf.2ba01fbe76fe96168a39d5b72a5fb20a.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.475,32.793359,-116.965929,img_0066_S_32-793359_-116-965929_jpg.rf.8025cfbf4c7adc51084f9df5ad339894.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.27,32.831359,-117.273873,img_0066_S_32-831359_-117-273873_jpg.rf.111970e2790605ea5e9b43044cd1b2ff.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.718,32.700159,-117.142426,img_0067_W_32-700159_-117-142426_jpg.rf.a46a6733e9adce27e6af8d27861addd4.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.535,32.744259,-117.107928,img_0067_W_32-744259_-117-107928_jpg.rf.003e66261a8c72e67d5dbdcf0df45292.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.799,32.744259,-117.107071,img_0068_N_32-744259_-117-107071_jpg.rf.d8240cf791e3f9cc6a232a513550545f.jpg
+City Heights,Underserved,Transverse Crack,Light,0.643,32.744259,-117.107071,img_0068_N_32-744259_-117-107071_jpg.rf.d8240cf791e3f9cc6a232a513550545f.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.593,32.744259,-117.107071,img_0068_N_32-744259_-117-107071_jpg.rf.d8240cf791e3f9cc6a232a513550545f.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.492,32.744259,-117.107071,img_0068_N_32-744259_-117-107071_jpg.rf.d8240cf791e3f9cc6a232a513550545f.jpg
+City Heights,Underserved,Transverse Crack,Light,0.431,32.744259,-117.107071,img_0068_N_32-744259_-117-107071_jpg.rf.d8240cf791e3f9cc6a232a513550545f.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.392,32.744259,-117.107071,img_0068_N_32-744259_-117-107071_jpg.rf.d8240cf791e3f9cc6a232a513550545f.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.273,32.744259,-117.107071,img_0068_N_32-744259_-117-107071_jpg.rf.d8240cf791e3f9cc6a232a513550545f.jpg
+City Heights,Underserved,Transverse Crack,Light,0.253,32.744259,-117.107071,img_0068_N_32-744259_-117-107071_jpg.rf.d8240cf791e3f9cc6a232a513550545f.jpg
+El Cajon,Underserved,Pothole,Severe,0.509,32.793359,-116.965072,img_0068_N_32-793359_-116-965072_jpg.rf.508d85b496b520ab41cf95a9d0b39972.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.428,32.793359,-116.965072,img_0068_N_32-793359_-116-965072_jpg.rf.508d85b496b520ab41cf95a9d0b39972.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.296,32.793359,-116.965072,img_0068_N_32-793359_-116-965072_jpg.rf.508d85b496b520ab41cf95a9d0b39972.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.328,32.831359,-117.273015,img_0068_N_32-831359_-117-273015_jpg.rf.efcedf71a025ab557525eb354d125404.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.285,32.831359,-117.273015,img_0068_N_32-831359_-117-273015_jpg.rf.efcedf71a025ab557525eb354d125404.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.652,32.744259,-117.107071,img_0069_E_32-744259_-117-107071_jpg.rf.919ef5308db3fe727d0c9b8cecdc6763.jpg
+City Heights,Underserved,Transverse Crack,Light,0.395,32.744259,-117.107071,img_0069_E_32-744259_-117-107071_jpg.rf.919ef5308db3fe727d0c9b8cecdc6763.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.316,32.831359,-117.273015,img_0069_E_32-831359_-117-273015_jpg.rf.8b1054a8eaff3a0a0d42b60539ade26f.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.652,32.744259,-117.107071,img_0070_S_32-744259_-117-107071_jpg.rf.4d847a0112a9f03b11b505200485fb6e.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.576,32.744259,-117.107071,img_0070_S_32-744259_-117-107071_jpg.rf.4d847a0112a9f03b11b505200485fb6e.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.537,32.744259,-117.107071,img_0070_S_32-744259_-117-107071_jpg.rf.4d847a0112a9f03b11b505200485fb6e.jpg
+City Heights,Underserved,Transverse Crack,Light,0.398,32.744259,-117.107071,img_0070_S_32-744259_-117-107071_jpg.rf.4d847a0112a9f03b11b505200485fb6e.jpg
+City Heights,Underserved,Transverse Crack,Light,0.391,32.744259,-117.107071,img_0070_S_32-744259_-117-107071_jpg.rf.4d847a0112a9f03b11b505200485fb6e.jpg
+City Heights,Underserved,Transverse Crack,Light,0.348,32.744259,-117.107071,img_0070_S_32-744259_-117-107071_jpg.rf.4d847a0112a9f03b11b505200485fb6e.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.274,32.744259,-117.107071,img_0070_S_32-744259_-117-107071_jpg.rf.4d847a0112a9f03b11b505200485fb6e.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.328,32.793359,-116.965072,img_0070_S_32-793359_-116-965072_jpg.rf.8bf612d9d1a6be73ed4b6a71544e4e92.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.269,32.744259,-117.107071,img_0071_W_32-744259_-117-107071_jpg.rf.1469ff83a791ef7315294b867d76392e.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.362,32.831359,-117.273015,img_0071_W_32-831359_-117-273015_jpg.rf.4832650cc54a20e031ed7648bb0aaba3.jpg
+City Heights,Underserved,Pothole,Severe,0.252,32.744259,-117.106214,img_0072_N_32-744259_-117-106214_jpg.rf.e72c59e57bbd130d4d82ac3c49f7c91f.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.293,32.831359,-117.272158,img_0072_N_32-831359_-117-272158_jpg.rf.d1a94861703848e809813f99a3f6f73d.jpg
+La Jolla,Wealthier,Pothole,Severe,0.603,32.831359,-117.272158,img_0073_E_32-831359_-117-272158_jpg.rf.f014df58900901fd8d23efbe4bdc3db8.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.438,32.831359,-117.272158,img_0074_S_32-831359_-117-272158_jpg.rf.b214fa0f6879865e434c27f80c99eb00.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.407,32.744259,-117.105357,img_0076_N_32-744259_-117-105357_jpg.rf.bd415a8077a215a266e2fbfa68c1534e.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.336,32.831359,-117.2713,img_0076_N_32-831359_-117-2713_jpg.rf.007f83669e035407741f12d88944f89d.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.27,32.831359,-117.2713,img_0076_N_32-831359_-117-2713_jpg.rf.007f83669e035407741f12d88944f89d.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.259,32.831359,-117.2713,img_0076_N_32-831359_-117-2713_jpg.rf.007f83669e035407741f12d88944f89d.jpg
+City Heights,Underserved,Pothole,Severe,0.569,32.744259,-117.105357,img_0078_S_32-744259_-117-105357_jpg.rf.e5685161410b93af291499904d9cd138.jpg
+City Heights,Underserved,Pothole,Severe,0.378,32.744259,-117.105357,img_0078_S_32-744259_-117-105357_jpg.rf.e5685161410b93af291499904d9cd138.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.441,32.831359,-117.2713,img_0078_S_32-831359_-117-2713_jpg.rf.b5c7926f815e66a7d5a8ac69a129121c.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.321,32.831359,-117.2713,img_0078_S_32-831359_-117-2713_jpg.rf.b5c7926f815e66a7d5a8ac69a129121c.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.475,32.831359,-117.2713,img_0079_W_32-831359_-117-2713_jpg.rf.b60ca3e6b6ab970c3d6fdddadbaaf8d4.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.349,32.831359,-117.2713,img_0079_W_32-831359_-117-2713_jpg.rf.b60ca3e6b6ab970c3d6fdddadbaaf8d4.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.315,32.831359,-117.2713,img_0079_W_32-831359_-117-2713_jpg.rf.b60ca3e6b6ab970c3d6fdddadbaaf8d4.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.757,32.744259,-117.1045,img_0080_N_32-744259_-117-1045_jpg.rf.b8ede39738a9d0efe20deced59aba7d3.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.31,32.744259,-117.1045,img_0080_N_32-744259_-117-1045_jpg.rf.b8ede39738a9d0efe20deced59aba7d3.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.536,32.831359,-117.270442,img_0080_N_32-831359_-117-270442_jpg.rf.67aba1df413276c2fd21bcf862e02d43.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.367,32.831359,-117.270442,img_0080_N_32-831359_-117-270442_jpg.rf.67aba1df413276c2fd21bcf862e02d43.jpg
+La Jolla,Wealthier,Pothole,Severe,0.27,32.831359,-117.270442,img_0080_N_32-831359_-117-270442_jpg.rf.67aba1df413276c2fd21bcf862e02d43.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.468,32.744259,-117.1045,img_0081_E_32-744259_-117-1045_jpg.rf.9b4830184e770370d1c4b1d8bd840fdb.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.29,32.744259,-117.1045,img_0081_E_32-744259_-117-1045_jpg.rf.9b4830184e770370d1c4b1d8bd840fdb.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.285,32.744259,-117.1045,img_0081_E_32-744259_-117-1045_jpg.rf.9b4830184e770370d1c4b1d8bd840fdb.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.503,32.831359,-117.270442,img_0081_E_32-831359_-117-270442_jpg.rf.289ec68542a5850d037218df5e9d5c18.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.391,32.831359,-117.270442,img_0081_E_32-831359_-117-270442_jpg.rf.289ec68542a5850d037218df5e9d5c18.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.303,32.831359,-117.270442,img_0081_E_32-831359_-117-270442_jpg.rf.289ec68542a5850d037218df5e9d5c18.jpg
+City Heights,Underserved,Transverse Crack,Light,0.371,32.744259,-117.1045,img_0082_S_32-744259_-117-1045_jpg.rf.372c0c521e6bf7e125935444aa839724.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.316,32.744259,-117.1045,img_0082_S_32-744259_-117-1045_jpg.rf.372c0c521e6bf7e125935444aa839724.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.287,32.744259,-117.1045,img_0082_S_32-744259_-117-1045_jpg.rf.372c0c521e6bf7e125935444aa839724.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.457,32.793359,-116.9625,img_0082_S_32-793359_-116-9625_jpg.rf.9814d6f192777d9a9371fad4257693e6.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.437,32.793359,-116.9625,img_0082_S_32-793359_-116-9625_jpg.rf.9814d6f192777d9a9371fad4257693e6.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.353,32.793359,-116.9625,img_0082_S_32-793359_-116-9625_jpg.rf.9814d6f192777d9a9371fad4257693e6.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.305,32.793359,-116.9625,img_0082_S_32-793359_-116-9625_jpg.rf.9814d6f192777d9a9371fad4257693e6.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.401,32.831359,-117.270442,img_0082_S_32-831359_-117-270442_jpg.rf.6a2074d47018d986559720e4591ab03f.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.322,32.744259,-117.1045,img_0083_W_32-744259_-117-1045_jpg.rf.987fa4042b45faee04e682a39a8ec027.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.466,32.831359,-117.270442,img_0083_W_32-831359_-117-270442_jpg.rf.50241d2a7b206eb651824b4c32ff3bfb.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.422,32.831359,-117.270442,img_0083_W_32-831359_-117-270442_jpg.rf.50241d2a7b206eb651824b4c32ff3bfb.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.372,32.831359,-117.270442,img_0083_W_32-831359_-117-270442_jpg.rf.50241d2a7b206eb651824b4c32ff3bfb.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.287,32.831359,-117.270442,img_0083_W_32-831359_-117-270442_jpg.rf.50241d2a7b206eb651824b4c32ff3bfb.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.705,32.700159,-117.138144,img_0084_N_32-700159_-117-138144_jpg.rf.77b5757ca006b466e2bedd38020cada6.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.275,32.700159,-117.138144,img_0084_N_32-700159_-117-138144_jpg.rf.77b5757ca006b466e2bedd38020cada6.jpg
+La Jolla,Wealthier,Pothole,Severe,0.347,32.831359,-117.269585,img_0084_N_32-831359_-117-269585_jpg.rf.92b334688d4cceb03ed77f205be38ceb.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.373,32.700159,-117.138144,img_0085_E_32-700159_-117-138144_jpg.rf.d266b9456f547b375196b979d4d3fbfc.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.319,32.700159,-117.138144,img_0085_E_32-700159_-117-138144_jpg.rf.d266b9456f547b375196b979d4d3fbfc.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.407,32.744259,-117.103643,img_0085_E_32-744259_-117-103643_jpg.rf.36ec5ead9772868bb30527b74fa76b6d.jpg
+City Heights,Underserved,Transverse Crack,Light,0.309,32.744259,-117.103643,img_0085_E_32-744259_-117-103643_jpg.rf.36ec5ead9772868bb30527b74fa76b6d.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.287,32.744259,-117.103643,img_0085_E_32-744259_-117-103643_jpg.rf.36ec5ead9772868bb30527b74fa76b6d.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.601,32.700159,-117.138144,img_0086_S_32-700159_-117-138144_jpg.rf.6a110df388d1f5baeda20f1f5737baf2.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.348,32.700159,-117.138144,img_0086_S_32-700159_-117-138144_jpg.rf.6a110df388d1f5baeda20f1f5737baf2.jpg
+Barrio Logan,Underserved,Side_Walk,N/A,0.324,32.700159,-117.138144,img_0086_S_32-700159_-117-138144_jpg.rf.6a110df388d1f5baeda20f1f5737baf2.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.312,32.700159,-117.138144,img_0086_S_32-700159_-117-138144_jpg.rf.6a110df388d1f5baeda20f1f5737baf2.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.495,32.831359,-117.269585,img_0086_S_32-831359_-117-269585_jpg.rf.73827234bd37a5b90e994fe0d56b1d1e.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.47,32.831359,-117.269585,img_0086_S_32-831359_-117-269585_jpg.rf.73827234bd37a5b90e994fe0d56b1d1e.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.407,32.831359,-117.269585,img_0086_S_32-831359_-117-269585_jpg.rf.73827234bd37a5b90e994fe0d56b1d1e.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.271,32.831359,-117.269585,img_0086_S_32-831359_-117-269585_jpg.rf.73827234bd37a5b90e994fe0d56b1d1e.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.529,32.700159,-117.138144,img_0087_W_32-700159_-117-138144_jpg.rf.76654973c01c737f1abf4708a23fd015.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.472,32.700159,-117.138144,img_0087_W_32-700159_-117-138144_jpg.rf.76654973c01c737f1abf4708a23fd015.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.36,32.700159,-117.138144,img_0087_W_32-700159_-117-138144_jpg.rf.76654973c01c737f1abf4708a23fd015.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.27,32.831359,-117.269585,img_0087_W_32-831359_-117-269585_jpg.rf.8cafaf6a4a3a6305089420687b89baf4.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.258,32.831359,-117.268727,img_0088_N_32-831359_-117-268727_jpg.rf.473133bfb7447dd03e424a5f7b3b6d88.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.305,32.831359,-117.268727,img_0089_E_32-831359_-117-268727_jpg.rf.e590a54a24b70c19717dd2239fdce09e.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.358,32.700159,-117.137287,img_0090_S_32-700159_-117-137287_jpg.rf.dcaba24c9836038af8cac7de6869f34f.jpg
+City Heights,Underserved,Pothole,Severe,0.371,32.744259,-117.102786,img_0090_S_32-744259_-117-102786_jpg.rf.4d23e571a01911c1226d8b5d8873bbda.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.323,32.744259,-117.102786,img_0090_S_32-744259_-117-102786_jpg.rf.4d23e571a01911c1226d8b5d8873bbda.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.313,32.744259,-117.102786,img_0090_S_32-744259_-117-102786_jpg.rf.4d23e571a01911c1226d8b5d8873bbda.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.297,32.744259,-117.102786,img_0090_S_32-744259_-117-102786_jpg.rf.4d23e571a01911c1226d8b5d8873bbda.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.33,32.831359,-117.268727,img_0091_W_32-831359_-117-268727_jpg.rf.c6801ef6b2d72dbd36381eb0c03ae73a.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.543,32.700159,-117.136431,img_0092_N_32-700159_-117-136431_jpg.rf.0308004ed5129e8575f6c0cdcd91fd8c.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.349,32.700159,-117.136431,img_0092_N_32-700159_-117-136431_jpg.rf.0308004ed5129e8575f6c0cdcd91fd8c.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.284,32.700159,-117.136431,img_0092_N_32-700159_-117-136431_jpg.rf.0308004ed5129e8575f6c0cdcd91fd8c.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.283,32.700159,-117.136431,img_0092_N_32-700159_-117-136431_jpg.rf.0308004ed5129e8575f6c0cdcd91fd8c.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.681,32.700159,-117.136431,img_0093_E_32-700159_-117-136431_jpg.rf.c8143eafcda21ad8e32ca84d339b3d48.jpg
+City Heights,Underserved,Side_Walk,N/A,0.456,32.744259,-117.101929,img_0093_E_32-744259_-117-101929_jpg.rf.f0d751e2f4522a3783ed104ea978d056.jpg
+City Heights,Underserved,Transverse Crack,Light,0.388,32.744259,-117.101929,img_0093_E_32-744259_-117-101929_jpg.rf.f0d751e2f4522a3783ed104ea978d056.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.357,32.700159,-117.136431,img_0094_S_32-700159_-117-136431_jpg.rf.1e5cf5f9ff37e6bee6c2290a53022cad.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.264,32.700159,-117.136431,img_0094_S_32-700159_-117-136431_jpg.rf.1e5cf5f9ff37e6bee6c2290a53022cad.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.563,32.832079,-117.274731,img_0094_S_32-832079_-117-274731_jpg.rf.01d2f6c718a3ccd1a325424c127b00dc.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.354,32.832079,-117.274731,img_0094_S_32-832079_-117-274731_jpg.rf.01d2f6c718a3ccd1a325424c127b00dc.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.631,32.700159,-117.136431,img_0095_W_32-700159_-117-136431_jpg.rf.acd36f5d9524763900453df8d1f0f6a6.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.492,32.700159,-117.136431,img_0095_W_32-700159_-117-136431_jpg.rf.acd36f5d9524763900453df8d1f0f6a6.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.347,32.700159,-117.136431,img_0095_W_32-700159_-117-136431_jpg.rf.acd36f5d9524763900453df8d1f0f6a6.jpg
+City Heights,Underserved,Side_Walk,N/A,0.599,32.744259,-117.101929,img_0095_W_32-744259_-117-101929_jpg.rf.59a6c4c9203bf358519aeb41b9ca99bb.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.372,32.744259,-117.101929,img_0095_W_32-744259_-117-101929_jpg.rf.59a6c4c9203bf358519aeb41b9ca99bb.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.352,32.793359,-116.959928,img_0095_W_32-793359_-116-959928_jpg.rf.93ebc820161f960ec1db15cd0d0ec472.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.32,32.793359,-116.959928,img_0095_W_32-793359_-116-959928_jpg.rf.93ebc820161f960ec1db15cd0d0ec472.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.28,32.793359,-116.959928,img_0095_W_32-793359_-116-959928_jpg.rf.93ebc820161f960ec1db15cd0d0ec472.jpg
+City Heights,Underserved,Pothole,Severe,0.416,32.744979,-117.107928,img_0096_N_32-744979_-117-107928_jpg.rf.428c829bdca825589fea70ef41f3e470.jpg
+City Heights,Underserved,Pothole,Severe,0.263,32.744979,-117.107928,img_0096_N_32-744979_-117-107928_jpg.rf.428c829bdca825589fea70ef41f3e470.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.416,32.832079,-117.273873,img_0097_E_32-832079_-117-273873_jpg.rf.35941c6df656321dc25523fadee8b05b.jpg
+City Heights,Underserved,Pothole,Severe,0.618,32.744979,-117.107928,img_0098_S_32-744979_-117-107928_jpg.rf.7bbd3b72244a9b750123e2fe41f59fc6.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.583,32.832079,-117.273873,img_0098_S_32-832079_-117-273873_jpg.rf.bf528b6929e33243dbe1b8c3ee2e6863.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.581,32.832079,-117.273873,img_0098_S_32-832079_-117-273873_jpg.rf.bf528b6929e33243dbe1b8c3ee2e6863.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.496,32.832079,-117.273873,img_0098_S_32-832079_-117-273873_jpg.rf.bf528b6929e33243dbe1b8c3ee2e6863.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.474,32.832079,-117.273873,img_0098_S_32-832079_-117-273873_jpg.rf.bf528b6929e33243dbe1b8c3ee2e6863.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.319,32.832079,-117.273873,img_0098_S_32-832079_-117-273873_jpg.rf.bf528b6929e33243dbe1b8c3ee2e6863.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.278,32.832079,-117.273873,img_0099_W_32-832079_-117-273873_jpg.rf.d1a6759e372aa918ec99f19075217656.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.276,32.832079,-117.273873,img_0099_W_32-832079_-117-273873_jpg.rf.d1a6759e372aa918ec99f19075217656.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.589,32.744979,-117.107071,img_0100_N_32-744979_-117-107071_jpg.rf.104323ea47cd2d6967448449a8fcfd0d.jpg
+City Heights,Underserved,Transverse Crack,Light,0.4,32.744979,-117.107071,img_0100_N_32-744979_-117-107071_jpg.rf.104323ea47cd2d6967448449a8fcfd0d.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.383,32.744979,-117.107071,img_0100_N_32-744979_-117-107071_jpg.rf.104323ea47cd2d6967448449a8fcfd0d.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.361,32.744979,-117.107071,img_0100_N_32-744979_-117-107071_jpg.rf.104323ea47cd2d6967448449a8fcfd0d.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.265,32.744979,-117.107071,img_0100_N_32-744979_-117-107071_jpg.rf.104323ea47cd2d6967448449a8fcfd0d.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.463,32.794079,-116.965072,img_0100_N_32-794079_-116-965072_jpg.rf.fbaeafb6a07815b62820df6c0984cd6d.jpg
+La Jolla,Wealthier,Pothole,Severe,0.437,32.832079,-117.273015,img_0100_N_32-832079_-117-273015_jpg.rf.d873dbff621a4620468d6e2ad408c62b.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.354,32.744979,-117.107071,img_0101_E_32-744979_-117-107071_jpg.rf.e907301c15fd9d63f7cff9df6c816169.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.32,32.794079,-116.965072,img_0101_E_32-794079_-116-965072_jpg.rf.fad6883935d9c2c3156bf830fd3a56d3.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.298,32.794079,-116.965072,img_0101_E_32-794079_-116-965072_jpg.rf.fad6883935d9c2c3156bf830fd3a56d3.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.268,32.794079,-116.965072,img_0101_E_32-794079_-116-965072_jpg.rf.fad6883935d9c2c3156bf830fd3a56d3.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.263,32.794079,-116.965072,img_0101_E_32-794079_-116-965072_jpg.rf.fad6883935d9c2c3156bf830fd3a56d3.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.257,32.794079,-116.965072,img_0101_E_32-794079_-116-965072_jpg.rf.fad6883935d9c2c3156bf830fd3a56d3.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.924,32.744979,-117.107071,img_0102_S_32-744979_-117-107071_jpg.rf.1e673f744ea1b33551bc186c69db89d9.jpg
+City Heights,Underserved,Pothole,Severe,0.412,32.744979,-117.107071,img_0102_S_32-744979_-117-107071_jpg.rf.1e673f744ea1b33551bc186c69db89d9.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.408,32.744979,-117.107071,img_0102_S_32-744979_-117-107071_jpg.rf.1e673f744ea1b33551bc186c69db89d9.jpg
+City Heights,Underserved,Pothole,Severe,0.408,32.744979,-117.107071,img_0102_S_32-744979_-117-107071_jpg.rf.1e673f744ea1b33551bc186c69db89d9.jpg
+City Heights,Underserved,Transverse Crack,Light,0.341,32.744979,-117.107071,img_0102_S_32-744979_-117-107071_jpg.rf.1e673f744ea1b33551bc186c69db89d9.jpg
+City Heights,Underserved,Transverse Crack,Light,0.316,32.744979,-117.107071,img_0102_S_32-744979_-117-107071_jpg.rf.1e673f744ea1b33551bc186c69db89d9.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.313,32.744979,-117.107071,img_0102_S_32-744979_-117-107071_jpg.rf.1e673f744ea1b33551bc186c69db89d9.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.581,32.794079,-116.965072,img_0102_S_32-794079_-116-965072_jpg.rf.02083e0ac08436a51f7b0f758d37ad64.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.595,32.794079,-116.965072,img_0103_W_32-794079_-116-965072_jpg.rf.e61c771821c130bb954bd957b613ff6c.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.363,32.794079,-116.965072,img_0103_W_32-794079_-116-965072_jpg.rf.e61c771821c130bb954bd957b613ff6c.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.304,32.794079,-116.965072,img_0103_W_32-794079_-116-965072_jpg.rf.e61c771821c130bb954bd957b613ff6c.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.332,32.744979,-117.106214,img_0104_N_32-744979_-117-106214_jpg.rf.55badadd98b9411c86c031bd1d781538.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.49,32.794079,-116.964215,img_0104_N_32-794079_-116-964215_jpg.rf.6f96744abe02b328dceafbab2cc7da70.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.262,32.794079,-116.964215,img_0104_N_32-794079_-116-964215_jpg.rf.6f96744abe02b328dceafbab2cc7da70.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.585,32.794079,-116.964215,img_0105_E_32-794079_-116-964215_jpg.rf.61b3347bf777965ad556d9dd0619a195.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.541,32.794079,-116.964215,img_0105_E_32-794079_-116-964215_jpg.rf.61b3347bf777965ad556d9dd0619a195.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.475,32.794079,-116.964215,img_0105_E_32-794079_-116-964215_jpg.rf.61b3347bf777965ad556d9dd0619a195.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.362,32.794079,-116.964215,img_0105_E_32-794079_-116-964215_jpg.rf.61b3347bf777965ad556d9dd0619a195.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.324,32.794079,-116.964215,img_0105_E_32-794079_-116-964215_jpg.rf.61b3347bf777965ad556d9dd0619a195.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.293,32.794079,-116.964215,img_0105_E_32-794079_-116-964215_jpg.rf.61b3347bf777965ad556d9dd0619a195.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.292,32.794079,-116.964215,img_0105_E_32-794079_-116-964215_jpg.rf.61b3347bf777965ad556d9dd0619a195.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.292,32.744979,-117.106214,img_0107_W_32-744979_-117-106214_jpg.rf.0e36e77e221fc67605023f042230d0b0.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.618,32.794079,-116.964215,img_0107_W_32-794079_-116-964215_jpg.rf.52f1adce575abb8ea97b146ba96f629e.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.299,32.794079,-116.964215,img_0107_W_32-794079_-116-964215_jpg.rf.52f1adce575abb8ea97b146ba96f629e.jpg
+Barrio Logan,Underserved,Side_Walk,N/A,0.64,32.700879,-117.139856,img_0108_N_32-700879_-117-139856_jpg.rf.3c6701a6ec4ac49ad7fcd657a5642d7f.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.355,32.794079,-116.963357,img_0108_N_32-794079_-116-963357_jpg.rf.c610178fd9e423035c0676118dd5b7b4.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.636,32.832079,-117.270442,img_0108_N_32-832079_-117-270442_jpg.rf.4d68272c7b5f6e236a9397793c077c35.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.417,32.832079,-117.270442,img_0108_N_32-832079_-117-270442_jpg.rf.4d68272c7b5f6e236a9397793c077c35.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.409,32.700879,-117.139856,img_0109_E_32-700879_-117-139856_jpg.rf.3f24d482e0a79c8525fda6c7eebc73b3.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.383,32.700879,-117.139856,img_0109_E_32-700879_-117-139856_jpg.rf.3f24d482e0a79c8525fda6c7eebc73b3.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.309,32.700879,-117.139856,img_0109_E_32-700879_-117-139856_jpg.rf.3f24d482e0a79c8525fda6c7eebc73b3.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.254,32.700879,-117.139856,img_0109_E_32-700879_-117-139856_jpg.rf.3f24d482e0a79c8525fda6c7eebc73b3.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.704,32.832079,-117.270442,img_0109_E_32-832079_-117-270442_jpg.rf.ba5056ced7e71a75b1c60d3c4f60de9f.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.382,32.832079,-117.270442,img_0109_E_32-832079_-117-270442_jpg.rf.ba5056ced7e71a75b1c60d3c4f60de9f.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.358,32.832079,-117.270442,img_0109_E_32-832079_-117-270442_jpg.rf.ba5056ced7e71a75b1c60d3c4f60de9f.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.345,32.832079,-117.270442,img_0109_E_32-832079_-117-270442_jpg.rf.ba5056ced7e71a75b1c60d3c4f60de9f.jpg
+Barrio Logan,Underserved,Longitudinal Crack,Light,0.292,32.700879,-117.139856,img_0110_S_32-700879_-117-139856_jpg.rf.84e1ba0482225493ba54255c19b1adcd.jpg
+City Heights,Underserved,Transverse Crack,Light,0.384,32.744979,-117.105357,img_0110_S_32-744979_-117-105357_jpg.rf.ac0650850e5adfd567b295f2d708291e.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.387,32.700879,-117.139856,img_0111_W_32-700879_-117-139856_jpg.rf.ff949d7994e0717caed61b080839c783.jpg
+City Heights,Underserved,Pothole,Severe,0.348,32.744979,-117.105357,img_0111_W_32-744979_-117-105357_jpg.rf.15ab6833fd0327c593c62127c57c3748.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.295,32.794079,-116.963357,img_0111_W_32-794079_-116-963357_jpg.rf.501870cc37bb8a51bd02cd9160c64903.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.636,32.832079,-117.270442,img_0111_W_32-832079_-117-270442_jpg.rf.84ab1528dd04042bf7d33d7af9211b11.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.314,32.832079,-117.270442,img_0111_W_32-832079_-117-270442_jpg.rf.84ab1528dd04042bf7d33d7af9211b11.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.412,32.744979,-117.1045,img_0112_N_32-744979_-117-1045_jpg.rf.f47b9e578fbecb4dd1d5dd90d8f0281e.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.376,32.744979,-117.1045,img_0112_N_32-744979_-117-1045_jpg.rf.f47b9e578fbecb4dd1d5dd90d8f0281e.jpg
+City Heights,Underserved,Transverse Crack,Light,0.376,32.744979,-117.1045,img_0112_N_32-744979_-117-1045_jpg.rf.f47b9e578fbecb4dd1d5dd90d8f0281e.jpg
+City Heights,Underserved,Transverse Crack,Light,0.293,32.744979,-117.1045,img_0112_N_32-744979_-117-1045_jpg.rf.f47b9e578fbecb4dd1d5dd90d8f0281e.jpg
+La Jolla,Wealthier,Pothole,Severe,0.519,32.832079,-117.269585,img_0112_N_32-832079_-117-269585_jpg.rf.0d09a662324ba580fc218327685c423e.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.36,32.744979,-117.1045,img_0113_E_32-744979_-117-1045_jpg.rf.c654953d5fcb30335b9953698974c7bb.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.347,32.744979,-117.1045,img_0113_E_32-744979_-117-1045_jpg.rf.c654953d5fcb30335b9953698974c7bb.jpg
+City Heights,Underserved,Transverse Crack,Light,0.29,32.744979,-117.1045,img_0113_E_32-744979_-117-1045_jpg.rf.c654953d5fcb30335b9953698974c7bb.jpg
+City Heights,Underserved,Side_Walk,N/A,0.276,32.744979,-117.1045,img_0113_E_32-744979_-117-1045_jpg.rf.c654953d5fcb30335b9953698974c7bb.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.558,32.832079,-117.269585,img_0113_E_32-832079_-117-269585_jpg.rf.a65e95c5a61fd6c46533c42bf40dea99.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.324,32.832079,-117.269585,img_0113_E_32-832079_-117-269585_jpg.rf.a65e95c5a61fd6c46533c42bf40dea99.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.259,32.832079,-117.269585,img_0113_E_32-832079_-117-269585_jpg.rf.a65e95c5a61fd6c46533c42bf40dea99.jpg
+City Heights,Underserved,Transverse Crack,Light,0.492,32.744979,-117.1045,img_0114_S_32-744979_-117-1045_jpg.rf.a639ae584a66d8dd66f52cc1693c249a.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.445,32.744979,-117.1045,img_0114_S_32-744979_-117-1045_jpg.rf.a639ae584a66d8dd66f52cc1693c249a.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.387,32.744979,-117.1045,img_0114_S_32-744979_-117-1045_jpg.rf.a639ae584a66d8dd66f52cc1693c249a.jpg
+City Heights,Underserved,Transverse Crack,Light,0.358,32.744979,-117.1045,img_0114_S_32-744979_-117-1045_jpg.rf.a639ae584a66d8dd66f52cc1693c249a.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.307,32.744979,-117.1045,img_0114_S_32-744979_-117-1045_jpg.rf.a639ae584a66d8dd66f52cc1693c249a.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.28,32.744979,-117.1045,img_0114_S_32-744979_-117-1045_jpg.rf.a639ae584a66d8dd66f52cc1693c249a.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.263,32.744979,-117.1045,img_0114_S_32-744979_-117-1045_jpg.rf.a639ae584a66d8dd66f52cc1693c249a.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.452,32.794079,-116.9625,img_0114_S_32-794079_-116-9625_jpg.rf.2afa79ba3b87539a9f96057287411b51.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.445,32.832079,-117.269585,img_0114_S_32-832079_-117-269585_jpg.rf.40f8bab2bc81581b81180f6c456cf309.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.269,32.832079,-117.269585,img_0114_S_32-832079_-117-269585_jpg.rf.40f8bab2bc81581b81180f6c456cf309.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.267,32.832079,-117.269585,img_0114_S_32-832079_-117-269585_jpg.rf.40f8bab2bc81581b81180f6c456cf309.jpg
+City Heights,Underserved,Side_Walk,N/A,0.256,32.744979,-117.1045,img_0115_W_32-744979_-117-1045_jpg.rf.bcc7d48f5e45d2b903aa92472ef8efa8.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.362,32.794079,-116.9625,img_0115_W_32-794079_-116-9625_jpg.rf.e62dc6c1281be1b2dfe45fdca742deb6.jpg
+El Cajon,Underserved,Pothole,Severe,0.289,32.794079,-116.9625,img_0115_W_32-794079_-116-9625_jpg.rf.e62dc6c1281be1b2dfe45fdca742deb6.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.446,32.832079,-117.269585,img_0115_W_32-832079_-117-269585_jpg.rf.c0a2024b65fd7be1363b1b9284fddc2f.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.398,32.832079,-117.269585,img_0115_W_32-832079_-117-269585_jpg.rf.c0a2024b65fd7be1363b1b9284fddc2f.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.325,32.832079,-117.269585,img_0115_W_32-832079_-117-269585_jpg.rf.c0a2024b65fd7be1363b1b9284fddc2f.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.294,32.832079,-117.269585,img_0115_W_32-832079_-117-269585_jpg.rf.c0a2024b65fd7be1363b1b9284fddc2f.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.598,32.794079,-116.961643,img_0116_N_32-794079_-116-961643_jpg.rf.4472b19dea651968582333d93e34b2db.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.541,32.794079,-116.961643,img_0116_N_32-794079_-116-961643_jpg.rf.4472b19dea651968582333d93e34b2db.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.324,32.832079,-117.268727,img_0116_N_32-832079_-117-268727_jpg.rf.db4fb7743621f83dd634cb0c1aad4915.jpg
+Barrio Logan,Underserved,Alligator Crack,Severe,0.559,32.700879,-117.138144,img_0117_E_32-700879_-117-138144_jpg.rf.82054deb0e9962f46a310f10dcbe5c30.jpg
+Barrio Logan,Underserved,Transverse Crack,Light,0.304,32.700879,-117.138144,img_0117_E_32-700879_-117-138144_jpg.rf.82054deb0e9962f46a310f10dcbe5c30.jpg
+City Heights,Underserved,Pothole,Severe,0.278,32.744979,-117.103643,img_0118_S_32-744979_-117-103643_jpg.rf.24c5a9681b4aee1bd3e0179cd39c1b5d.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.77,32.794079,-116.961643,img_0118_S_32-794079_-116-961643_jpg.rf.6de5026d1d7c659de11a505a3c4a25a5.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.393,32.794079,-116.961643,img_0118_S_32-794079_-116-961643_jpg.rf.6de5026d1d7c659de11a505a3c4a25a5.jpg
+El Cajon,Underserved,Pothole,Severe,0.285,32.794079,-116.961643,img_0118_S_32-794079_-116-961643_jpg.rf.6de5026d1d7c659de11a505a3c4a25a5.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.256,32.794079,-116.961643,img_0118_S_32-794079_-116-961643_jpg.rf.6de5026d1d7c659de11a505a3c4a25a5.jpg
+City Heights,Underserved,Pothole,Severe,0.298,32.744979,-117.103643,img_0119_W_32-744979_-117-103643_jpg.rf.040b3e5344dcef1e5b92063add27825b.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.819,32.794079,-116.961643,img_0119_W_32-794079_-116-961643_jpg.rf.2e8ff08c550e5689d5ff79d486841285.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.302,32.794079,-116.961643,img_0119_W_32-794079_-116-961643_jpg.rf.2e8ff08c550e5689d5ff79d486841285.jpg
+City Heights,Underserved,Pothole,Severe,0.466,32.744979,-117.102786,img_0120_N_32-744979_-117-102786_jpg.rf.f828add6e4cff36f1adaa1f412da20cb.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.35,32.794079,-116.960785,img_0120_N_32-794079_-116-960785_jpg.rf.aade822676be0a5010f00213104f3a46.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.484,32.794079,-116.960785,img_0121_E_32-794079_-116-960785_jpg.rf.5126e11e0b970e946501c4d119696250.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.388,32.794079,-116.960785,img_0121_E_32-794079_-116-960785_jpg.rf.5126e11e0b970e946501c4d119696250.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.324,32.744979,-117.102786,img_0122_S_32-744979_-117-102786_jpg.rf.6233aab44437a3e2737919077f5c8168.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.413,32.794079,-116.960785,img_0123_W_32-794079_-116-960785_jpg.rf.e8988b74dc615971f695ca7b3d708243.jpg
+El Cajon,Underserved,Pothole,Severe,0.345,32.794079,-116.960785,img_0123_W_32-794079_-116-960785_jpg.rf.e8988b74dc615971f695ca7b3d708243.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.274,32.794079,-116.960785,img_0123_W_32-794079_-116-960785_jpg.rf.e8988b74dc615971f695ca7b3d708243.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.293,32.8328,-117.274731,img_0123_W_32-8328_-117-274731_jpg.rf.9f8c9b53ec6b8e1a7657414a524c0ed9.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.284,32.8328,-117.274731,img_0123_W_32-8328_-117-274731_jpg.rf.9f8c9b53ec6b8e1a7657414a524c0ed9.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.517,32.744979,-117.101929,img_0124_N_32-744979_-117-101929_jpg.rf.0f1f2b3201b4c86c99acf9ff5bef3145.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.415,32.744979,-117.101929,img_0124_N_32-744979_-117-101929_jpg.rf.0f1f2b3201b4c86c99acf9ff5bef3145.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.277,32.744979,-117.101929,img_0124_N_32-744979_-117-101929_jpg.rf.0f1f2b3201b4c86c99acf9ff5bef3145.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.267,32.744979,-117.101929,img_0124_N_32-744979_-117-101929_jpg.rf.0f1f2b3201b4c86c99acf9ff5bef3145.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.302,32.8328,-117.273873,img_0124_N_32-8328_-117-273873_jpg.rf.341e930d43d2b46bd79123c630bae2ed.jpg
+City Heights,Underserved,Side_Walk,N/A,0.302,32.744979,-117.101929,img_0125_E_32-744979_-117-101929_jpg.rf.96e4177ec06466b5577fc5b8abd26100.jpg
+City Heights,Underserved,Side_Walk,N/A,0.272,32.744979,-117.101929,img_0125_E_32-744979_-117-101929_jpg.rf.96e4177ec06466b5577fc5b8abd26100.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.691,32.744979,-117.101929,img_0126_S_32-744979_-117-101929_jpg.rf.2f553c5f74dbc5aa82b4ada8aa233cd8.jpg
+City Heights,Underserved,Transverse Crack,Light,0.467,32.744979,-117.101929,img_0126_S_32-744979_-117-101929_jpg.rf.2f553c5f74dbc5aa82b4ada8aa233cd8.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.362,32.794079,-116.959928,img_0127_W_32-794079_-116-959928_jpg.rf.4856bb31d7c64e7548762c5d85912082.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.319,32.794079,-116.959928,img_0127_W_32-794079_-116-959928_jpg.rf.4856bb31d7c64e7548762c5d85912082.jpg
+City Heights,Underserved,Side_Walk,N/A,0.326,32.7457,-117.107928,img_0128_N_32-7457_-117-107928_jpg.rf.25416f4e4ab6f60ae64ee39a7f897c27.jpg
+El Cajon,Underserved,Pothole,Severe,0.289,32.7948,-116.965929,img_0128_N_32-7948_-116-965929_jpg.rf.8d30d70b0825d3a725bdd0c12fa8acf1.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.526,32.7948,-116.965929,img_0129_E_32-7948_-116-965929_jpg.rf.fb8bfb5819080453bf3a0672cd1d21c0.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.643,32.8328,-117.273015,img_0129_E_32-8328_-117-273015_jpg.rf.a735810db70b68b6a214788ed87800d0.jpg
+City Heights,Underserved,Transverse Crack,Light,0.429,32.7457,-117.107928,img_0131_W_32-7457_-117-107928_jpg.rf.1b32ea3779f01fdddce03683ee1222c3.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.331,32.7457,-117.107928,img_0131_W_32-7457_-117-107928_jpg.rf.1b32ea3779f01fdddce03683ee1222c3.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.296,32.8328,-117.273015,img_0131_W_32-8328_-117-273015_jpg.rf.dd1ae78c69b650d130178b8bbdb345f8.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.599,32.7457,-117.107071,img_0132_N_32-7457_-117-107071_jpg.rf.aae7095ad546e29d664e62d009fc666c.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.261,32.8328,-117.272158,img_0132_N_32-8328_-117-272158_jpg.rf.4ca2213f97cde85defa4c343ff23e3fe.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.33,32.7457,-117.107071,img_0133_E_32-7457_-117-107071_jpg.rf.ab82b0f86d870fde023a01d3703c8bc1.jpg
+City Heights,Underserved,Transverse Crack,Light,0.395,32.7457,-117.107071,img_0134_S_32-7457_-117-107071_jpg.rf.34b063d737f95e93536425bc25dff1f1.jpg
+Encanto,Underserved,Transverse Crack,Light,0.387,32.7061,-117.0744,img_0135_W_32-7061_-117-0744_jpg.rf.4768cdfa041a9f411a87a8e4b80df8f9.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.345,32.7061,-117.0744,img_0135_W_32-7061_-117-0744_jpg.rf.4768cdfa041a9f411a87a8e4b80df8f9.jpg
+City Heights,Underserved,Side_Walk,N/A,0.26,32.7457,-117.107071,img_0135_W_32-7457_-117-107071_jpg.rf.7d10aece85db21c8d64b1499ef06a040.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.387,32.8328,-117.2713,img_0136_N_32-8328_-117-2713_jpg.rf.778c0d8587cfe5e217b27f99da93830d.jpg
+City Heights,Underserved,Pothole,Severe,0.285,32.7457,-117.106214,img_0137_E_32-7457_-117-106214_jpg.rf.7516ab1047c3a8a4bed3a24157e37ece.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.493,32.8328,-117.2713,img_0137_E_32-8328_-117-2713_jpg.rf.b5645a7fb8ad4e47f7660e7714d9fd98.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.392,32.8328,-117.2713,img_0137_E_32-8328_-117-2713_jpg.rf.b5645a7fb8ad4e47f7660e7714d9fd98.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.353,32.8328,-117.2713,img_0137_E_32-8328_-117-2713_jpg.rf.b5645a7fb8ad4e47f7660e7714d9fd98.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.35,32.8328,-117.2713,img_0137_E_32-8328_-117-2713_jpg.rf.b5645a7fb8ad4e47f7660e7714d9fd98.jpg
+El Cajon,Underserved,Transverse Crack,Light,0.345,32.7948,-116.964215,img_0138_S_32-7948_-116-964215_jpg.rf.5bdc65fbfa3da693ea4022269034940e.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.459,32.8328,-117.2713,img_0138_S_32-8328_-117-2713_jpg.rf.4075c685cf63c32e53d22eff0c2287f3.jpg
+La Jolla,Wealthier,Pothole,Severe,0.313,32.8328,-117.2713,img_0138_S_32-8328_-117-2713_jpg.rf.4075c685cf63c32e53d22eff0c2287f3.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.45,32.8328,-117.2713,img_0139_W_32-8328_-117-2713_jpg.rf.a5489eb82c2635ba4b780bfd62ddbc7d.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.365,32.8328,-117.2713,img_0139_W_32-8328_-117-2713_jpg.rf.a5489eb82c2635ba4b780bfd62ddbc7d.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.364,32.8328,-117.2713,img_0139_W_32-8328_-117-2713_jpg.rf.a5489eb82c2635ba4b780bfd62ddbc7d.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.301,32.8328,-117.2713,img_0139_W_32-8328_-117-2713_jpg.rf.a5489eb82c2635ba4b780bfd62ddbc7d.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.322,32.7457,-117.105357,img_0140_N_32-7457_-117-105357_jpg.rf.d56701b77c26507fe1d183c5c86e07c8.jpg
+El Cajon,Underserved,Pothole,Severe,0.327,32.7948,-116.963357,img_0140_N_32-7948_-116-963357_jpg.rf.122c7489de6dcf533a9c87d413509fba.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.262,32.7948,-116.963357,img_0140_N_32-7948_-116-963357_jpg.rf.122c7489de6dcf533a9c87d413509fba.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.3,32.8328,-117.270442,img_0140_N_32-8328_-117-270442_jpg.rf.3435a12ed29c4fb7bcb2f814458be233.jpg
+City Heights,Underserved,Pothole,Severe,0.355,32.7457,-117.105357,img_0141_E_32-7457_-117-105357_jpg.rf.60b8eeb5b8e4c9b1b55658b32c6e126f.jpg
+City Heights,Underserved,Pothole,Severe,0.35,32.7457,-117.105357,img_0141_E_32-7457_-117-105357_jpg.rf.60b8eeb5b8e4c9b1b55658b32c6e126f.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.62,32.8328,-117.270442,img_0141_E_32-8328_-117-270442_jpg.rf.f84791227e903570e6535317f67ca94f.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.403,32.8328,-117.270442,img_0141_E_32-8328_-117-270442_jpg.rf.f84791227e903570e6535317f67ca94f.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.456,32.7948,-116.963357,img_0142_S_32-7948_-116-963357_jpg.rf.d60c6600d60849513bd672ad9f1cbde7.jpg
+El Cajon,Underserved,Pothole,Severe,0.377,32.7948,-116.963357,img_0142_S_32-7948_-116-963357_jpg.rf.d60c6600d60849513bd672ad9f1cbde7.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.438,32.8328,-117.270442,img_0142_S_32-8328_-117-270442_jpg.rf.ca0e7ed262c8b45931f8a33a468d8dc7.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.428,32.7948,-116.963357,img_0143_W_32-7948_-116-963357_jpg.rf.27b4c4f9419c6ce4d38360baa7fbcb8b.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.291,32.7948,-116.963357,img_0143_W_32-7948_-116-963357_jpg.rf.27b4c4f9419c6ce4d38360baa7fbcb8b.jpg
+El Cajon,Underserved,Alligator Crack,Severe,0.277,32.7948,-116.963357,img_0143_W_32-7948_-116-963357_jpg.rf.27b4c4f9419c6ce4d38360baa7fbcb8b.jpg
+City Heights,Underserved,Transverse Crack,Light,0.418,32.7457,-117.1045,img_0144_N_32-7457_-117-1045_jpg.rf.34f49d44e3329c4a09ab095592b187c5.jpg
+City Heights,Underserved,Transverse Crack,Light,0.379,32.7457,-117.1045,img_0144_N_32-7457_-117-1045_jpg.rf.34f49d44e3329c4a09ab095592b187c5.jpg
+City Heights,Underserved,Transverse Crack,Light,0.303,32.7457,-117.1045,img_0144_N_32-7457_-117-1045_jpg.rf.34f49d44e3329c4a09ab095592b187c5.jpg
+City Heights,Underserved,Transverse Crack,Light,0.262,32.7457,-117.1045,img_0144_N_32-7457_-117-1045_jpg.rf.34f49d44e3329c4a09ab095592b187c5.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.3,32.8328,-117.269585,img_0145_E_32-8328_-117-269585_jpg.rf.6dd8d5de1f261f72924fe76a52b430ac.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.293,32.8328,-117.269585,img_0145_E_32-8328_-117-269585_jpg.rf.6dd8d5de1f261f72924fe76a52b430ac.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.283,32.8328,-117.269585,img_0145_E_32-8328_-117-269585_jpg.rf.6dd8d5de1f261f72924fe76a52b430ac.jpg
+City Heights,Underserved,Transverse Crack,Light,0.587,32.7457,-117.1045,img_0146_S_32-7457_-117-1045_jpg.rf.2b6c8e1dc85a1c43368ad4d9a03998f4.jpg
+City Heights,Underserved,Transverse Crack,Light,0.37,32.7457,-117.1045,img_0146_S_32-7457_-117-1045_jpg.rf.2b6c8e1dc85a1c43368ad4d9a03998f4.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.279,32.7457,-117.1045,img_0146_S_32-7457_-117-1045_jpg.rf.2b6c8e1dc85a1c43368ad4d9a03998f4.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.405,32.8328,-117.269585,img_0147_W_32-8328_-117-269585_jpg.rf.df1af1b818af2766c5288cd1264c47ae.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.267,32.8328,-117.269585,img_0147_W_32-8328_-117-269585_jpg.rf.df1af1b818af2766c5288cd1264c47ae.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.304,32.7948,-116.961643,img_0148_N_32-7948_-116-961643_jpg.rf.09a2d4490a826299eb5f86c0688942bd.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.512,32.833521,-117.274731,img_0148_N_32-833521_-117-274731_jpg.rf.c3a7dedc684dbc7f59758769db283a21.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.391,32.833521,-117.274731,img_0148_N_32-833521_-117-274731_jpg.rf.c3a7dedc684dbc7f59758769db283a21.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.251,32.833521,-117.274731,img_0148_N_32-833521_-117-274731_jpg.rf.c3a7dedc684dbc7f59758769db283a21.jpg
+City Heights,Underserved,Transverse Crack,Light,0.361,32.7457,-117.103643,img_0149_E_32-7457_-117-103643_jpg.rf.75bb9cbd3d0ebec6c77d275508734067.jpg
+City Heights,Underserved,Transverse Crack,Light,0.353,32.7457,-117.103643,img_0149_E_32-7457_-117-103643_jpg.rf.75bb9cbd3d0ebec6c77d275508734067.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.327,32.7457,-117.103643,img_0149_E_32-7457_-117-103643_jpg.rf.75bb9cbd3d0ebec6c77d275508734067.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.356,32.833521,-117.274731,img_0149_E_32-833521_-117-274731_jpg.rf.d4d413a00c0a583443b45b243fd7afb9.jpg
+La Jolla,Wealthier,Alligator Crack,Severe,0.318,32.833521,-117.274731,img_0149_E_32-833521_-117-274731_jpg.rf.d4d413a00c0a583443b45b243fd7afb9.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.292,32.833521,-117.274731,img_0149_E_32-833521_-117-274731_jpg.rf.d4d413a00c0a583443b45b243fd7afb9.jpg
+El Cajon,Underserved,Side_Walk,N/A,0.295,32.7948,-116.961643,img_0150_S_32-7948_-116-961643_jpg.rf.bbb682d1b7d858f67384a0aee95424c0.jpg
+City Heights,Underserved,Transverse Crack,Light,0.393,32.7457,-117.103643,img_0151_W_32-7457_-117-103643_jpg.rf.41431e6b94c796b6fc8072f144f2c28f.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.38,32.7457,-117.103643,img_0151_W_32-7457_-117-103643_jpg.rf.41431e6b94c796b6fc8072f144f2c28f.jpg
+City Heights,Underserved,Transverse Crack,Light,0.375,32.7457,-117.103643,img_0151_W_32-7457_-117-103643_jpg.rf.41431e6b94c796b6fc8072f144f2c28f.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.686,32.833521,-117.274731,img_0151_W_32-833521_-117-274731_jpg.rf.b00e06d8d9c4d182c7614190055dac3a.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.635,32.833521,-117.274731,img_0151_W_32-833521_-117-274731_jpg.rf.b00e06d8d9c4d182c7614190055dac3a.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.613,32.833521,-117.274731,img_0151_W_32-833521_-117-274731_jpg.rf.b00e06d8d9c4d182c7614190055dac3a.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.3,32.833521,-117.274731,img_0151_W_32-833521_-117-274731_jpg.rf.b00e06d8d9c4d182c7614190055dac3a.jpg
+City Heights,Underserved,Side_Walk,N/A,0.251,32.7457,-117.102786,img_0152_N_32-7457_-117-102786_jpg.rf.caf1963bdae3d5b48e023141644dfdfd.jpg
+La Jolla,Wealthier,Pothole,Severe,0.722,32.833521,-117.273873,img_0154_S_32-833521_-117-273873_jpg.rf.cd4d921a90ee45a5765ff2567ea91671.jpg
+Encanto,Underserved,Side_Walk,N/A,0.263,32.7111,-117.0581,img_0155_W_32-7111_-117-0581_jpg.rf.105049fad072797f8f2417deb7f68225.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.299,32.833521,-117.273873,img_0155_W_32-833521_-117-273873_jpg.rf.ec8c602cf9689ee56d26090d85a51dfd.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.558,32.7948,-116.959928,img_0157_E_32-7948_-116-959928_jpg.rf.fb1f2c1ac061c0dd5f6b8f479bd1db21.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.406,32.7948,-116.959928,img_0157_E_32-7948_-116-959928_jpg.rf.fb1f2c1ac061c0dd5f6b8f479bd1db21.jpg
+El Cajon,Underserved,Longitudinal Crack,Light,0.323,32.7948,-116.959928,img_0157_E_32-7948_-116-959928_jpg.rf.fb1f2c1ac061c0dd5f6b8f479bd1db21.jpg
+La Jolla,Wealthier,Pothole,Severe,0.268,32.833521,-117.273015,img_0157_E_32-833521_-117-273015_jpg.rf.88109443ffb7cc8fc78eaf93730d5c64.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.344,32.7457,-117.101929,img_0158_S_32-7457_-117-101929_jpg.rf.13e6be79fd88f4afc87fe2e5fe3a779b.jpg
+City Heights,Underserved,Side_Walk,N/A,0.459,32.7457,-117.101929,img_0159_W_32-7457_-117-101929_jpg.rf.71eff35dcf811cc914b06f3c695158b0.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.374,32.7457,-117.101929,img_0159_W_32-7457_-117-101929_jpg.rf.71eff35dcf811cc914b06f3c695158b0.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.437,32.833521,-117.273015,img_0159_W_32-833521_-117-273015_jpg.rf.95126ffc26e9d09e27b95464e90c83a8.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.26,32.833521,-117.273015,img_0159_W_32-833521_-117-273015_jpg.rf.95126ffc26e9d09e27b95464e90c83a8.jpg
+City Heights,Underserved,Transverse Crack,Light,0.625,32.746421,-117.107928,img_0160_N_32-746421_-117-107928_jpg.rf.ae7b3ed3370aa5abe3ae7c63c5d5bab3.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.56,32.746421,-117.107928,img_0160_N_32-746421_-117-107928_jpg.rf.ae7b3ed3370aa5abe3ae7c63c5d5bab3.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.48,32.746421,-117.107928,img_0160_N_32-746421_-117-107928_jpg.rf.ae7b3ed3370aa5abe3ae7c63c5d5bab3.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.382,32.746421,-117.107928,img_0160_N_32-746421_-117-107928_jpg.rf.ae7b3ed3370aa5abe3ae7c63c5d5bab3.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.332,32.746421,-117.107928,img_0160_N_32-746421_-117-107928_jpg.rf.ae7b3ed3370aa5abe3ae7c63c5d5bab3.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.253,32.746421,-117.107928,img_0160_N_32-746421_-117-107928_jpg.rf.ae7b3ed3370aa5abe3ae7c63c5d5bab3.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.4,32.833521,-117.272158,img_0160_N_32-833521_-117-272158_jpg.rf.b909670a5774b3fd9397a1cac5fc3aa9.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.321,32.833521,-117.272158,img_0160_N_32-833521_-117-272158_jpg.rf.b909670a5774b3fd9397a1cac5fc3aa9.jpg
+City Heights,Underserved,Transverse Crack,Light,0.258,32.746421,-117.107928,img_0161_E_32-746421_-117-107928_jpg.rf.de3f8b6c332f0b0d4f40cf58c18662e4.jpg
+City Heights,Underserved,Transverse Crack,Light,0.468,32.746421,-117.107928,img_0162_S_32-746421_-117-107928_jpg.rf.6eefe3c26a95abb031098ef09708f701.jpg
+City Heights,Underserved,Transverse Crack,Light,0.467,32.746421,-117.107928,img_0162_S_32-746421_-117-107928_jpg.rf.6eefe3c26a95abb031098ef09708f701.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.391,32.746421,-117.107928,img_0162_S_32-746421_-117-107928_jpg.rf.6eefe3c26a95abb031098ef09708f701.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.37,32.746421,-117.107928,img_0162_S_32-746421_-117-107928_jpg.rf.6eefe3c26a95abb031098ef09708f701.jpg
+City Heights,Underserved,Pothole,Severe,0.295,32.746421,-117.107928,img_0162_S_32-746421_-117-107928_jpg.rf.6eefe3c26a95abb031098ef09708f701.jpg
+City Heights,Underserved,Side_Walk,N/A,0.474,32.746421,-117.107928,img_0163_W_32-746421_-117-107928_jpg.rf.cd5a14c7286b2bf665b61deb925605c1.jpg
+City Heights,Underserved,Side_Walk,N/A,0.454,32.746421,-117.107928,img_0163_W_32-746421_-117-107928_jpg.rf.cd5a14c7286b2bf665b61deb925605c1.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.266,32.833521,-117.272158,img_0163_W_32-833521_-117-272158_jpg.rf.f02e7e51e0da3dd6a48f2774b4572daa.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.518,32.746421,-117.107071,img_0164_N_32-746421_-117-107071_jpg.rf.4660f0aca411640eceff23b9eb761f3a.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.333,32.746421,-117.107071,img_0164_N_32-746421_-117-107071_jpg.rf.4660f0aca411640eceff23b9eb761f3a.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.542,32.833521,-117.2713,img_0164_N_32-833521_-117-2713_jpg.rf.a97ff32e198c90440e5d37fd438e53eb.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.615,32.746421,-117.107071,img_0165_E_32-746421_-117-107071_jpg.rf.a4faa52981664466cd09c0518429f20e.jpg
+La Jolla,Wealthier,Pothole,Severe,0.286,32.833521,-117.2713,img_0165_E_32-833521_-117-2713_jpg.rf.1ddc107d028a5a4723ce233280ebc4db.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.748,32.746421,-117.107071,img_0166_S_32-746421_-117-107071_jpg.rf.50b9001dccbcc7c2c9128615cc9da974.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.658,32.746421,-117.107071,img_0166_S_32-746421_-117-107071_jpg.rf.50b9001dccbcc7c2c9128615cc9da974.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.508,32.746421,-117.107071,img_0166_S_32-746421_-117-107071_jpg.rf.50b9001dccbcc7c2c9128615cc9da974.jpg
+City Heights,Underserved,Transverse Crack,Light,0.271,32.746421,-117.107071,img_0166_S_32-746421_-117-107071_jpg.rf.50b9001dccbcc7c2c9128615cc9da974.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.536,32.833521,-117.2713,img_0166_S_32-833521_-117-2713_jpg.rf.f124013cc5e39c8e608a07c9e321fb82.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.41,32.833521,-117.2713,img_0167_W_32-833521_-117-2713_jpg.rf.e9c6228284e166249f1ccd95b81348a7.jpg
+City Heights,Underserved,Transverse Crack,Light,0.352,32.746421,-117.106214,img_0168_N_32-746421_-117-106214_jpg.rf.7968e8d9093695844157b7744714aa7c.jpg
+City Heights,Underserved,Pothole,Severe,0.666,32.746421,-117.106214,img_0169_E_32-746421_-117-106214_jpg.rf.3a2c4111f996565faac948043f24ec9b.jpg
+City Heights,Underserved,Pothole,Severe,0.257,32.746421,-117.106214,img_0170_S_32-746421_-117-106214_jpg.rf.09bf6e688397ecf09da3e18a1311d169.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.355,32.833521,-117.268727,img_0170_S_32-833521_-117-268727_jpg.rf.59438fd26a7df84bbdf51aeb8b9194d0.jpg
+La Jolla,Wealthier,Transverse Crack,Light,0.279,32.833521,-117.268727,img_0170_S_32-833521_-117-268727_jpg.rf.59438fd26a7df84bbdf51aeb8b9194d0.jpg
+City Heights,Underserved,Pothole,Severe,0.287,32.746421,-117.106214,img_0171_W_32-746421_-117-106214_jpg.rf.19e48ffaa73d8c27b8a2a1643e50da92.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.665,32.833521,-117.268727,img_0171_W_32-833521_-117-268727_jpg.rf.f7247d53355700e988a926674fca68d5.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.36,32.833521,-117.268727,img_0171_W_32-833521_-117-268727_jpg.rf.f7247d53355700e988a926674fca68d5.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.343,32.834241,-117.274731,img_0172_N_32-834241_-117-274731_jpg.rf.2b6ea898ce9ec54429a7dbc5b7a558aa.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.261,32.834241,-117.274731,img_0172_N_32-834241_-117-274731_jpg.rf.2b6ea898ce9ec54429a7dbc5b7a558aa.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.432,32.834241,-117.274731,img_0173_E_32-834241_-117-274731_jpg.rf.3a2a15ea925c74b4967fe5c0b171258f.jpg
+La Jolla,Wealthier,Side_Walk,N/A,0.281,32.834241,-117.274731,img_0173_E_32-834241_-117-274731_jpg.rf.3a2a15ea925c74b4967fe5c0b171258f.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.662,32.834241,-117.274731,img_0174_S_32-834241_-117-274731_jpg.rf.dddddf9d4f79aaa220e4bb5ff8fe50c0.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.375,32.746421,-117.105357,img_0175_W_32-746421_-117-105357_jpg.rf.2420e1b2527b51f3dfa8f3edee746c89.jpg
+La Jolla,Wealthier,Longitudinal Crack,Light,0.256,32.834241,-117.274731,img_0175_W_32-834241_-117-274731_jpg.rf.b58e2e093beb3c3b6a3ca69320002a25.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.587,32.746421,-117.1045,img_0176_N_32-746421_-117-1045_jpg.rf.add9dfb457350672a78c60b5a21c615d.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.362,32.746421,-117.1045,img_0176_N_32-746421_-117-1045_jpg.rf.add9dfb457350672a78c60b5a21c615d.jpg
+City Heights,Underserved,Transverse Crack,Light,0.309,32.746421,-117.1045,img_0176_N_32-746421_-117-1045_jpg.rf.add9dfb457350672a78c60b5a21c615d.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.363,32.746421,-117.1045,img_0177_E_32-746421_-117-1045_jpg.rf.1b8ed20c7a7effc52b27f89d12940c72.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.347,32.746421,-117.1045,img_0177_E_32-746421_-117-1045_jpg.rf.1b8ed20c7a7effc52b27f89d12940c72.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.346,32.746421,-117.1045,img_0177_E_32-746421_-117-1045_jpg.rf.1b8ed20c7a7effc52b27f89d12940c72.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.291,32.746421,-117.1045,img_0177_E_32-746421_-117-1045_jpg.rf.1b8ed20c7a7effc52b27f89d12940c72.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.288,32.746421,-117.1045,img_0177_E_32-746421_-117-1045_jpg.rf.1b8ed20c7a7effc52b27f89d12940c72.jpg
+City Heights,Underserved,Transverse Crack,Light,0.281,32.746421,-117.1045,img_0177_E_32-746421_-117-1045_jpg.rf.1b8ed20c7a7effc52b27f89d12940c72.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.267,32.746421,-117.1045,img_0177_E_32-746421_-117-1045_jpg.rf.1b8ed20c7a7effc52b27f89d12940c72.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.833,32.746421,-117.1045,img_0178_S_32-746421_-117-1045_jpg.rf.19a9d15ecab1d6d6e341c8f90ef1a7cb.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.419,32.746421,-117.1045,img_0178_S_32-746421_-117-1045_jpg.rf.19a9d15ecab1d6d6e341c8f90ef1a7cb.jpg
+City Heights,Underserved,Transverse Crack,Light,0.381,32.746421,-117.1045,img_0178_S_32-746421_-117-1045_jpg.rf.19a9d15ecab1d6d6e341c8f90ef1a7cb.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.336,32.746421,-117.1045,img_0178_S_32-746421_-117-1045_jpg.rf.19a9d15ecab1d6d6e341c8f90ef1a7cb.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.412,32.746421,-117.1045,img_0179_W_32-746421_-117-1045_jpg.rf.1be93e458397a272bf3bd2946dce009d.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.369,32.746421,-117.1045,img_0179_W_32-746421_-117-1045_jpg.rf.1be93e458397a272bf3bd2946dce009d.jpg
+City Heights,Underserved,Pothole,Severe,0.269,32.746421,-117.103643,img_0180_N_32-746421_-117-103643_jpg.rf.58c451a7a645554628b0bafd6d63a916.jpg
+City Heights,Underserved,Pothole,Severe,0.259,32.746421,-117.103643,img_0180_N_32-746421_-117-103643_jpg.rf.58c451a7a645554628b0bafd6d63a916.jpg
+City Heights,Underserved,Pothole,Severe,0.514,32.746421,-117.103643,img_0181_E_32-746421_-117-103643_jpg.rf.6b8974c82e203b95e0df725bd9e10c59.jpg
+City Heights,Underserved,Pothole,Severe,0.657,32.746421,-117.103643,img_0182_S_32-746421_-117-103643_jpg.rf.4f964c26c6501ee1e9cb260dfebcb1df.jpg
+City Heights,Underserved,Pothole,Severe,0.63,32.746421,-117.103643,img_0182_S_32-746421_-117-103643_jpg.rf.4f964c26c6501ee1e9cb260dfebcb1df.jpg
+City Heights,Underserved,Pothole,Severe,0.616,32.746421,-117.103643,img_0182_S_32-746421_-117-103643_jpg.rf.4f964c26c6501ee1e9cb260dfebcb1df.jpg
+City Heights,Underserved,Pothole,Severe,0.49,32.746421,-117.103643,img_0182_S_32-746421_-117-103643_jpg.rf.4f964c26c6501ee1e9cb260dfebcb1df.jpg
+City Heights,Underserved,Pothole,Severe,0.351,32.746421,-117.103643,img_0182_S_32-746421_-117-103643_jpg.rf.4f964c26c6501ee1e9cb260dfebcb1df.jpg
+City Heights,Underserved,Pothole,Severe,0.299,32.746421,-117.103643,img_0182_S_32-746421_-117-103643_jpg.rf.4f964c26c6501ee1e9cb260dfebcb1df.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.642,32.7064,-117.0757,img_0185_E_32-7064_-117-0757_jpg.rf.fc1fe7dddcd1be9189a09254a0846c68.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.359,32.7064,-117.0757,img_0185_E_32-7064_-117-0757_jpg.rf.fc1fe7dddcd1be9189a09254a0846c68.jpg
+Encanto,Underserved,Transverse Crack,Light,0.324,32.7064,-117.0757,img_0185_E_32-7064_-117-0757_jpg.rf.fc1fe7dddcd1be9189a09254a0846c68.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.535,32.746421,-117.102786,img_0185_E_32-746421_-117-102786_jpg.rf.d4ff05cf8b46abc9547b208443f4f6c9.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.387,32.746421,-117.102786,img_0185_E_32-746421_-117-102786_jpg.rf.d4ff05cf8b46abc9547b208443f4f6c9.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.358,32.746421,-117.102786,img_0185_E_32-746421_-117-102786_jpg.rf.d4ff05cf8b46abc9547b208443f4f6c9.jpg
+City Heights,Underserved,Transverse Crack,Light,0.286,32.746421,-117.102786,img_0185_E_32-746421_-117-102786_jpg.rf.d4ff05cf8b46abc9547b208443f4f6c9.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.517,32.746421,-117.102786,img_0186_S_32-746421_-117-102786_jpg.rf.96e3d1b87a47b2471e3c9af43c50b7fc.jpg
+City Heights,Underserved,Pothole,Severe,0.395,32.746421,-117.102786,img_0186_S_32-746421_-117-102786_jpg.rf.96e3d1b87a47b2471e3c9af43c50b7fc.jpg
+City Heights,Underserved,Pothole,Severe,0.28,32.746421,-117.102786,img_0186_S_32-746421_-117-102786_jpg.rf.96e3d1b87a47b2471e3c9af43c50b7fc.jpg
+City Heights,Underserved,Pothole,Severe,0.252,32.746421,-117.102786,img_0186_S_32-746421_-117-102786_jpg.rf.96e3d1b87a47b2471e3c9af43c50b7fc.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.607,32.7064,-117.0757,img_0187_W_32-7064_-117-0757_jpg.rf.48dd1cf6c8fb023d9f69d125fb40bc4f.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.287,32.7064,-117.0757,img_0187_W_32-7064_-117-0757_jpg.rf.48dd1cf6c8fb023d9f69d125fb40bc4f.jpg
+Encanto,Underserved,Pothole,Severe,0.547,32.7211,-117.056,img_0188_N_32-7211_-117-056_jpg.rf.49064fc77c1d94611a591caa7bf168a3.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.498,32.7211,-117.056,img_0188_N_32-7211_-117-056_jpg.rf.49064fc77c1d94611a591caa7bf168a3.jpg
+Encanto,Underserved,Pothole,Severe,0.309,32.7211,-117.056,img_0188_N_32-7211_-117-056_jpg.rf.49064fc77c1d94611a591caa7bf168a3.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.688,32.746421,-117.101929,img_0188_N_32-746421_-117-101929_jpg.rf.97c135d97f3d46f64be0fa3bb353c9e1.jpg
+City Heights,Underserved,Transverse Crack,Light,0.324,32.746421,-117.101929,img_0189_E_32-746421_-117-101929_jpg.rf.4c396ed616ffbfb2932a79ef9bdb8e80.jpg
+City Heights,Underserved,Side_Walk,N/A,0.278,32.746421,-117.101929,img_0189_E_32-746421_-117-101929_jpg.rf.4c396ed616ffbfb2932a79ef9bdb8e80.jpg
+Encanto,Underserved,Pothole,Severe,0.498,32.7211,-117.056,img_0190_S_32-7211_-117-056_jpg.rf.4f5beda37f4fbca1361d92c980e73b91.jpg
+Encanto,Underserved,Pothole,Severe,0.382,32.7211,-117.056,img_0190_S_32-7211_-117-056_jpg.rf.4f5beda37f4fbca1361d92c980e73b91.jpg
+City Heights,Underserved,Transverse Crack,Light,0.508,32.746421,-117.101929,img_0190_S_32-746421_-117-101929_jpg.rf.3fb0513515152cb788376b3b2cf4fa5e.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.411,32.746421,-117.101929,img_0190_S_32-746421_-117-101929_jpg.rf.3fb0513515152cb788376b3b2cf4fa5e.jpg
+Encanto,Underserved,Pothole,Severe,0.472,32.7211,-117.056,img_0191_W_32-7211_-117-056_jpg.rf.a8ce897bacae5ef16b60966ec18927ad.jpg
+Encanto,Underserved,Pothole,Severe,0.279,32.7211,-117.056,img_0191_W_32-7211_-117-056_jpg.rf.a8ce897bacae5ef16b60966ec18927ad.jpg
+Encanto,Underserved,Pothole,Severe,0.267,32.7211,-117.056,img_0191_W_32-7211_-117-056_jpg.rf.a8ce897bacae5ef16b60966ec18927ad.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.303,32.746421,-117.101929,img_0191_W_32-746421_-117-101929_jpg.rf.13986f697c2be5593425bf845ce46124.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.259,32.746421,-117.101929,img_0191_W_32-746421_-117-101929_jpg.rf.13986f697c2be5593425bf845ce46124.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.736,32.727,-117.0615,img_0192_N_32-727_-117-0615_jpg.rf.15f0adb0d59df54fd312eb62281d1c02.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.557,32.727,-117.0615,img_0192_N_32-727_-117-0615_jpg.rf.15f0adb0d59df54fd312eb62281d1c02.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.642,32.747141,-117.107928,img_0192_N_32-747141_-117-107928_jpg.rf.a9ce15dd8a8a0b8d79f7b8071e64e411.jpg
+City Heights,Underserved,Transverse Crack,Light,0.453,32.747141,-117.107928,img_0192_N_32-747141_-117-107928_jpg.rf.a9ce15dd8a8a0b8d79f7b8071e64e411.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.312,32.747141,-117.107928,img_0192_N_32-747141_-117-107928_jpg.rf.a9ce15dd8a8a0b8d79f7b8071e64e411.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.277,32.747141,-117.107928,img_0192_N_32-747141_-117-107928_jpg.rf.a9ce15dd8a8a0b8d79f7b8071e64e411.jpg
+City Heights,Underserved,Transverse Crack,Light,0.262,32.747141,-117.107928,img_0192_N_32-747141_-117-107928_jpg.rf.a9ce15dd8a8a0b8d79f7b8071e64e411.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.254,32.747141,-117.107928,img_0192_N_32-747141_-117-107928_jpg.rf.a9ce15dd8a8a0b8d79f7b8071e64e411.jpg
+City Heights,Underserved,Side_Walk,N/A,0.363,32.747141,-117.107928,img_0193_E_32-747141_-117-107928_jpg.rf.e7acdf9d0893eb023039b1fba11e9bb0.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.643,32.747141,-117.107928,img_0194_S_32-747141_-117-107928_jpg.rf.410e4134433f49e3e5975be3f61d779c.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.591,32.747141,-117.107928,img_0194_S_32-747141_-117-107928_jpg.rf.410e4134433f49e3e5975be3f61d779c.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.384,32.747141,-117.107928,img_0194_S_32-747141_-117-107928_jpg.rf.410e4134433f49e3e5975be3f61d779c.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.384,32.747141,-117.107928,img_0194_S_32-747141_-117-107928_jpg.rf.410e4134433f49e3e5975be3f61d779c.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.62,32.747141,-117.107071,img_0196_N_32-747141_-117-107071_jpg.rf.7c68267e02d55241cb19fb2073ce7331.jpg
+City Heights,Underserved,Transverse Crack,Light,0.481,32.747141,-117.107071,img_0196_N_32-747141_-117-107071_jpg.rf.7c68267e02d55241cb19fb2073ce7331.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.423,32.747141,-117.107071,img_0196_N_32-747141_-117-107071_jpg.rf.7c68267e02d55241cb19fb2073ce7331.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.28,32.747141,-117.107071,img_0196_N_32-747141_-117-107071_jpg.rf.7c68267e02d55241cb19fb2073ce7331.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.415,32.747141,-117.107071,img_0197_E_32-747141_-117-107071_jpg.rf.ca5c7dcf24f2bd7751409cbbebbba2ba.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.367,32.747141,-117.107071,img_0197_E_32-747141_-117-107071_jpg.rf.ca5c7dcf24f2bd7751409cbbebbba2ba.jpg
+City Heights,Underserved,Alligator Crack,Severe,0.525,32.747141,-117.107071,img_0198_S_32-747141_-117-107071_jpg.rf.42f74f7111c7b38f0ddd6e071847390e.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.389,32.747141,-117.107071,img_0198_S_32-747141_-117-107071_jpg.rf.42f74f7111c7b38f0ddd6e071847390e.jpg
+City Heights,Underserved,Transverse Crack,Light,0.359,32.747141,-117.107071,img_0198_S_32-747141_-117-107071_jpg.rf.42f74f7111c7b38f0ddd6e071847390e.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.358,32.747141,-117.107071,img_0198_S_32-747141_-117-107071_jpg.rf.42f74f7111c7b38f0ddd6e071847390e.jpg
+City Heights,Underserved,Transverse Crack,Light,0.337,32.747141,-117.107071,img_0198_S_32-747141_-117-107071_jpg.rf.42f74f7111c7b38f0ddd6e071847390e.jpg
+City Heights,Underserved,Transverse Crack,Light,0.326,32.747141,-117.107071,img_0198_S_32-747141_-117-107071_jpg.rf.42f74f7111c7b38f0ddd6e071847390e.jpg
+City Heights,Underserved,Longitudinal Crack,Light,0.274,32.747141,-117.107071,img_0198_S_32-747141_-117-107071_jpg.rf.42f74f7111c7b38f0ddd6e071847390e.jpg
+City Heights,Underserved,Side_Walk,N/A,0.355,32.747141,-117.107071,img_0199_W_32-747141_-117-107071_jpg.rf.1a1c7fbb288bcff32a842924ac2bad96.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.658,32.7033,-117.0824,img_0205_E_32-7033_-117-0824_jpg.rf.079191f21792a25650e96508fb848c3d.jpg
+Encanto,Underserved,Transverse Crack,Light,0.583,32.7033,-117.0824,img_0205_E_32-7033_-117-0824_jpg.rf.079191f21792a25650e96508fb848c3d.jpg
+Encanto,Underserved,Pothole,Severe,0.453,32.7033,-117.0824,img_0205_E_32-7033_-117-0824_jpg.rf.079191f21792a25650e96508fb848c3d.jpg
+Encanto,Underserved,Longitudinal Crack,Light,0.311,32.7033,-117.0824,img_0205_E_32-7033_-117-0824_jpg.rf.079191f21792a25650e96508fb848c3d.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.258,32.7033,-117.0824,img_0205_E_32-7033_-117-0824_jpg.rf.079191f21792a25650e96508fb848c3d.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.321,32.7205,-117.0698,img_0232_N_32-7205_-117-0698_jpg.rf.4ae40b4ff7c183e8b4fb4d349a05eef9.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.27,32.7205,-117.0698,img_0232_N_32-7205_-117-0698_jpg.rf.4ae40b4ff7c183e8b4fb4d349a05eef9.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.698,32.7162,-117.075,img_0240_N_32-7162_-117-075_jpg.rf.8a2b040451f81a92d003d11722ac229e.jpg
+Encanto,Underserved,Pothole,Severe,0.352,32.7162,-117.075,img_0240_N_32-7162_-117-075_jpg.rf.8a2b040451f81a92d003d11722ac229e.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.281,32.7162,-117.075,img_0240_N_32-7162_-117-075_jpg.rf.8a2b040451f81a92d003d11722ac229e.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.446,32.7162,-117.075,img_0241_E_32-7162_-117-075_jpg.rf.324f8155540b38da7369b594708d003e.jpg
+Encanto,Underserved,Pothole,Severe,0.389,32.7162,-117.075,img_0241_E_32-7162_-117-075_jpg.rf.324f8155540b38da7369b594708d003e.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.373,32.7162,-117.075,img_0241_E_32-7162_-117-075_jpg.rf.324f8155540b38da7369b594708d003e.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.345,32.7162,-117.075,img_0242_S_32-7162_-117-075_jpg.rf.2e4335a80d828597a897dfae1a8c96bf.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.776,32.7109,-117.0585,img_0291_W_32-7109_-117-0585_jpg.rf.e8cead989198416e9f15f2d6b1d69711.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.734,32.7109,-117.0585,img_0291_W_32-7109_-117-0585_jpg.rf.e8cead989198416e9f15f2d6b1d69711.jpg
+Encanto,Underserved,Transverse Crack,Light,0.292,32.7109,-117.0585,img_0291_W_32-7109_-117-0585_jpg.rf.e8cead989198416e9f15f2d6b1d69711.jpg
+Encanto,Underserved,Transverse Crack,Light,0.288,32.7109,-117.0585,img_0291_W_32-7109_-117-0585_jpg.rf.e8cead989198416e9f15f2d6b1d69711.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.756,32.7118,-117.0513,img_0293_E_32-7118_-117-0513_jpg.rf.a41c4f1057a9b22bd86685309896116a.jpg
+Encanto,Underserved,Longitudinal Crack,Light,0.51,32.7118,-117.0513,img_0293_E_32-7118_-117-0513_jpg.rf.a41c4f1057a9b22bd86685309896116a.jpg
+Encanto,Underserved,Transverse Crack,Light,0.598,32.7118,-117.0513,img_0295_W_32-7118_-117-0513_jpg.rf.abec984303d34568481e2cf106b2f013.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.3,32.7118,-117.0513,img_0295_W_32-7118_-117-0513_jpg.rf.abec984303d34568481e2cf106b2f013.jpg
+Encanto,Underserved,Transverse Crack,Light,0.598,32.7119,-117.0508,img_0297_E_32-7119_-117-0508_jpg.rf.46d45926e24a3b271c6a30b4f83f75e1.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.358,32.7119,-117.0508,img_0297_E_32-7119_-117-0508_jpg.rf.46d45926e24a3b271c6a30b4f83f75e1.jpg
+Encanto,Underserved,Pothole,Severe,0.356,32.7119,-117.0508,img_0297_E_32-7119_-117-0508_jpg.rf.46d45926e24a3b271c6a30b4f83f75e1.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.286,32.7119,-117.0508,img_0297_E_32-7119_-117-0508_jpg.rf.46d45926e24a3b271c6a30b4f83f75e1.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.699,32.7119,-117.0508,img_0299_W_32-7119_-117-0508_jpg.rf.6d564691901048b86bcc82c2e941ec49.jpg
+Encanto,Underserved,Longitudinal Crack,Light,0.408,32.7119,-117.0508,img_0299_W_32-7119_-117-0508_jpg.rf.6d564691901048b86bcc82c2e941ec49.jpg
+Encanto,Underserved,Longitudinal Crack,Light,0.326,32.7119,-117.0508,img_0299_W_32-7119_-117-0508_jpg.rf.6d564691901048b86bcc82c2e941ec49.jpg
+Encanto,Underserved,Longitudinal Crack,Light,0.265,32.7119,-117.0508,img_0299_W_32-7119_-117-0508_jpg.rf.6d564691901048b86bcc82c2e941ec49.jpg
+Encanto,Underserved,Pothole,Severe,0.67,32.7297,-117.0493,img_0306_S_32-7297_-117-0493_jpg.rf.713e35efab1e802be45d7ba514b15dc2.jpg
+Encanto,Underserved,Alligator Crack,Severe,0.515,32.7006,-117.0624,img_0380_N_32-7006_-117-0624_jpg.rf.d4eb80ac7a3a4ca544f2fea5fdfe5d91.jpg
+Encanto,Underserved,Longitudinal Crack,Light,0.412,32.7006,-117.0624,img_0380_N_32-7006_-117-0624_jpg.rf.d4eb80ac7a3a4ca544f2fea5fdfe5d91.jpg
