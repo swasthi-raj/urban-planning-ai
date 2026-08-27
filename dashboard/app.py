@@ -4,7 +4,7 @@ MOC-LLAB / SDSU
 
 STATUS: Shell built with PLACEHOLDER DATA.
 Swap out the functions in the "DATA LAYER" section below once real
-model inference results, 311 data, and Census ACS data are ready.
+model inference results and 311 data are ready.
 Everything below that section (UI, charts, map) reads from those
 functions and does not need to change when real data is plugged in,
 as long as the returned DataFrame shapes stay the same.
@@ -88,20 +88,6 @@ def load_placeholder_detections(seed: int = 42) -> pd.DataFrame:
 
 
 @st.cache_data
-def load_placeholder_socioeconomic() -> pd.DataFrame:
-    """
-    PLACEHOLDER — replace with real US Census ACS pull (median household
-    income, population density, etc.) joined by neighborhood.
-    """
-    rng = np.random.default_rng(7)
-    data = []
-    for name, (_, _, category) in NEIGHBORHOODS.items():
-        income = rng.integers(38000, 62000) if category == "Underserved" else rng.integers(95000, 190000)
-        data.append({"neighborhood": name, "category": category, "median_household_income": income})
-    return pd.DataFrame(data)
-
-
-@st.cache_data
 def load_placeholder_311() -> pd.DataFrame:
     """
     PLACEHOLDER — replace with real San Diego 311 Get It Done complaint
@@ -149,16 +135,15 @@ def compute_equity_score(detections: pd.DataFrame) -> pd.DataFrame:
 st.title("AI-Powered Urban Infrastructure Monitoring")
 st.caption(
     "Equity scoring across San Diego neighborhoods — Google Street View + YOLOv8-seg "
-    "detections, cross-referenced with 311 complaints and Census ACS data."
+    "detections, cross-referenced with 311 complaints."
 )
 st.warning(
     "⚠️ Placeholder data shown throughout. Charts and map will update automatically "
-    "once real model inference and Census/311 data are connected — no layout changes needed.",
+    "once real model inference and 311 data are connected — no layout changes needed.",
     icon="⚠️",
 )
 
 detections = load_placeholder_detections()
-socio = load_placeholder_socioeconomic()
 complaints_311 = load_placeholder_311()
 equity = compute_equity_score(detections)
 
@@ -232,37 +217,20 @@ st.divider()
 
 # ---- Neighborhood comparison table ----
 st.subheader("Neighborhood equity summary")
-display_table = filtered_equity.merge(socio, on=["neighborhood", "category"], how="left").merge(
+display_table = filtered_equity.merge(
     complaints_311, on="neighborhood", how="left"
 )
 display_table = display_table[
     ["neighborhood", "category", "total_detections", "severe_count", "light_count",
-     "equity_score", "median_household_income", "reported_311_complaints"]
+     "equity_score", "reported_311_complaints"]
 ].rename(columns={
     "neighborhood": "Neighborhood", "category": "Type", "total_detections": "Total Detections",
     "severe_count": "Severe", "light_count": "Light", "equity_score": "Equity Score",
-    "median_household_income": "Median Income ($)", "reported_311_complaints": "311 Complaints",
+    "reported_311_complaints": "311 Complaints",
 })
 st.dataframe(display_table, use_container_width=True, hide_index=True)
 
 st.divider()
-
-# ---- H2 exploration: income vs deficiency scatter ----
-st.subheader("Equity check: income vs. infrastructure deficiency (H2)")
-scatter_data = filtered_equity.merge(socio, on=["neighborhood", "category"], how="left")
-if len(scatter_data):
-    fig_scatter = px.scatter(
-        scatter_data, x="median_household_income", y="equity_score",
-        color="category", size="total_detections", hover_name="neighborhood",
-        color_discrete_map={"Underserved": "#d62728", "Wealthier": "#1f77b4"},
-        labels={"median_household_income": "Median Household Income ($)", "equity_score": "Equity Score (weighted deficiencies)"},
-        height=420,
-    )
-    st.plotly_chart(fig_scatter, use_container_width=True)
-    st.caption(
-        "Placeholder data is seeded to show a downward trend on purpose for layout testing. "
-        "This is not a real finding — re-run once actual inference and ACS data are connected."
-    )
 
 # ---- H5 exploration: AI detections vs 311 reports ----
 st.subheader("AI detections vs. citizen 311 reports (H5)")
@@ -280,8 +248,13 @@ if len(h5_data):
         h5_melt, x="neighborhood", y="count", color="source", barmode="group", height=420,
     )
     st.plotly_chart(fig_h5, use_container_width=True)
+    st.caption(
+        "Cross-validates AI-detected infrastructure conditions against citizen-reported "
+        "311 complaints, surfacing where underserved neighborhoods may be under-reporting "
+        "relative to observed conditions."
+    )
 
 st.caption(
     "Data engine: Google Street View + YOLOv8-seg (v4, 6-class) · San Diego 311 Get It Done · "
-    "US Census ACS · MOC-LLAB, SDSU"
+    "MOC-LLAB, SDSU"
 )
