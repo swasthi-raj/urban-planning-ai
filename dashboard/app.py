@@ -224,7 +224,7 @@ map_col, chart_col = st.columns([1.3, 1])
 with map_col:
     st.subheader("Detection density by neighborhood")
     if len(filtered_equity):
-        fig_map = px.scatter_mapbox(
+        fig_map = px.scatter_map(
             filtered_equity,
             lat="lat",
             lon="lon",
@@ -234,9 +234,10 @@ with map_col:
             hover_data={"total_detections": True, "severe_count": True, "light_count": True, "lat": False, "lon": False},
             zoom=9.2,
             height=480,
+            map_style="open-street-map",
             color_discrete_map={"Underserved": "#d62728", "Wealthier": "#1f77b4"},
         )
-        fig_map.update_layout(mapbox_style="open-street-map", margin=dict(l=0, r=0, t=0, b=0))
+        fig_map.update_layout(margin=dict(l=0, r=0, t=0, b=0))
         st.plotly_chart(fig_map, use_container_width=True)
     else:
         st.info("No detections match the current filters.")
