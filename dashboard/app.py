@@ -187,18 +187,6 @@ else:
         icon="⚠️",
     )
 
-if using_real_detections:
-    covered = set(detections["neighborhood"].unique())
-    uncovered = [n for n in NEIGHBORHOODS if n not in covered]
-    if uncovered:
-        st.info(
-            f"ℹ️ No real detections yet for: {', '.join(uncovered)} — excluded from the map, "
-            "table, and charts below rather than shown as zero (which would misleadingly read "
-            "as 'no issues found'). Run download_gsv.py + run_inference.py for these "
-            "neighborhoods to fill them in.",
-            icon="ℹ️",
-        )
-
 equity = compute_equity_score(detections)
 
 # ---- Sidebar filters ----
@@ -270,10 +258,23 @@ with chart_col:
 st.divider()
 
 # ---- Neighborhood comparison table ----
+# Always show all 7 study neighborhoods, even ones with no real detections
+# yet — as an explicit "No data yet" rather than silently omitting the row
+# (which reads as "this neighborhood wasn't part of the study") or showing
+# 0 (which misleadingly reads as "no issues found").
 st.subheader("Neighborhood equity summary")
-display_table = filtered_equity.merge(
+all_neighborhoods_df = pd.DataFrame([
+    {"neighborhood": n, "category": info[2]} for n, info in NEIGHBORHOODS.items()
+])
+display_table = all_neighborhoods_df.merge(filtered_equity, on=["neighborhood", "category"], how="left")
+display_table = display_table.merge(
     complaints_311[["neighborhood", "reported_311_complaints", "source"]], on="neighborhood", how="left"
 )
+for col in ["total_detections", "severe_count", "light_count", "equity_score"]:
+    display_table[col] = display_table.apply(
+        lambda r, c=col: "No data yet" if using_real_detections and r["neighborhood"] not in set(detections["neighborhood"]) else (r[c] if pd.notna(r[c]) else 0),
+        axis=1,
+    )
 display_table["reported_311_complaints"] = display_table.apply(
     lambda r: "N/A (no SD 311 coverage)" if r.get("source") == "no_311_coverage" else r["reported_311_complaints"],
     axis=1,
@@ -287,6 +288,30 @@ display_table = display_table[
     "reported_311_complaints": "311 Complaints",
 })
 st.dataframe(display_table, use_container_width=True, hide_index=True)
+if using_real_detections:
+    missing = [n for n in NEIGHBORHOODS if n not in set(detections["neighborhood"])]
+    if missing:
+        st.caption(
+            f"'No data yet' means no real street-view imagery has been collected/run through "
+            f"the model for that neighborhood ({', '.join(missing)}) — not that no issues exist. "
+            "Run download_gsv.py + run_inference.py to fill these in."
+        )
+
+st.divider()
+
+# ---- Sample detections by neighborhood ----
+st.subheader("Sample detections by neighborhood")
+st.caption("Real model output on real street-view imagery — boxes/labels are the trained model's actual predictions, not mockups.")
+SAMPLE_IMAGES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sample_images")
+sample_cols = st.columns(4)
+for i, name in enumerate(NEIGHBORHOODS):
+    col = sample_cols[i % 4]
+    img_path = os.path.join(SAMPLE_IMAGES_DIR, f"{name.replace(' ', '_')}.jpg")
+    with col:
+        if os.path.exists(img_path):
+            st.image(img_path, caption=name, use_container_width=True)
+        else:
+            st.info(f"No sample image yet for {name}")
 
 st.divider()
 
