@@ -1,21 +1,38 @@
 """
-Run the trained YOLOv8-seg model over geotagged street-view images and
-produce data/detections.csv in the schema the dashboard reads:
+Run the trained YOLOv8-seg model over street-view images and produce
+data/detections.csv in the schema the dashboard reads:
 neighborhood, category, class_name, severity, confidence, lat, lon.
 
-Looks for lat/lon encoded in each filename, matching the patterns used by
-both the original GSV collection and download_gsv.py's output:
-  img_0152_N_32-7111_-117-0581_jpg.rf.<hash>.jpg
-  streetview_32-5837496_-117-0924478_jpg.rf.<hash>.jpg
-  streetview_<lat>_<lon>_heading<H>.jpg
+Each image is assigned to a neighborhood one of two ways:
+
+1. FOLDER NAME (preferred, no geotag needed) — if an image's immediate
+   parent folder matches a neighborhood name from config.py (spaces or
+   underscores, case-insensitive — "La Jolla", "La_Jolla", "la jolla" all
+   match), it's assigned straight to that neighborhood at that
+   neighborhood's center lat/lon. This is what makes adding a new
+   neighborhood easy: drop images into data/gsv_images/<Name>/ (see
+   download_gsv.py, which already saves into per-neighborhood folders)
+   and run this script — no filename geotagging required.
+2. FILENAME GEOTAG (fallback) — if the folder name doesn't match, lat/lon
+   is parsed from the filename (patterns used by the original GSV
+   collection and download_gsv.py's output):
+     img_0152_N_32-7111_-117-0581_jpg.rf.<hash>.jpg
+     streetview_32-5837496_-117-0924478_jpg.rf.<hash>.jpg
+     streetview_<lat>_<lon>_heading<H>.jpg
+   and snapped to the nearest study neighborhood within MAX_DISTANCE_KM.
 
 Usage:
     python run_inference.py --weights "best (3).pt" --images-dir path/to/images
     python run_inference.py --weights "best (3).pt"   # scans IMAGES_DIR recursively
 
-Images farther than MAX_DISTANCE_KM from every study neighborhood are
-skipped (written to data/skipped_images.csv with a reason) rather than
-force-assigned to the nearest one.
+Images that match neither path are skipped (written to
+data/skipped_images.csv with a reason) rather than force-assigned.
+
+Writing is MERGE-SAFE: existing rows in data/detections.csv for
+neighborhoods NOT touched by this run are preserved. Only the
+neighborhoods that had images processed this run have their rows
+replaced — so running inference on one new neighborhood's images never
+wipes out the other neighborhoods' existing detections.
 """
 
 import argparse
@@ -46,6 +63,20 @@ PATTERNS = [
     re.compile(r"img_\d+_[NSEW]_(?P<lat>\d+-\d+)_(?P<lon>-?\d+-\d+)_jpg"),
     re.compile(r"streetview_(?P<lat>\d+-\d+)_(?P<lon>-?\d+-\d+)"),
 ]
+
+
+def folder_name_to_neighborhood(path: str):
+    """
+    Check whether the image's immediate parent folder name matches a
+    neighborhood key from config.py (spaces/underscores and case
+    ignored). Returns (name, category) or None if no match.
+    """
+    folder = os.path.basename(os.path.dirname(path))
+    normalized = folder.replace("_", " ").strip().lower()
+    for name, info in NEIGHBORHOODS.items():
+        if name.strip().lower() == normalized:
+            return name, info["category"]
+    return None
 
 
 def parse_latlon(filename: str):
@@ -115,9 +146,20 @@ def main():
     kept_meta, skipped = [], []
     for path in files:
         fname = os.path.basename(path)
+
+        # 1. Folder-name match — preferred, no geotag needed.
+        folder_match = folder_name_to_neighborhood(path)
+        if folder_match:
+            name, cat = folder_match
+            info = NEIGHBORHOODS[name]
+            kept_meta.append({"file": fname, "path": path, "lat": info["lat"], "lon": info["lon"],
+                               "neighborhood": name, "category": cat})
+            continue
+
+        # 2. Fallback — parse lat/lon from filename, snap to nearest neighborhood.
         parsed = parse_latlon(fname)
         if not parsed:
-            skipped.append({"file": fname, "reason": "no_latlon_in_filename"})
+            skipped.append({"file": fname, "reason": "no_folder_match_and_no_latlon_in_filename"})
             continue
         lat, lon = parsed
         name, dist_km, cat = nearest_neighborhood(lat, lon)
@@ -162,10 +204,23 @@ def main():
                 })
         print(f"  processed {min(i + args.batch_size, len(kept_meta))}/{len(kept_meta)}")
 
-    df = pd.DataFrame(rows)
+    new_df = pd.DataFrame(rows)
+    touched_neighborhoods = {m["neighborhood"] for m in kept_meta}
+
+    # Merge-safe write: keep existing rows for neighborhoods this run did
+    # NOT process (e.g. adding one new neighborhood's images shouldn't wipe
+    # out the other neighborhoods' already-computed detections).
     os.makedirs(os.path.dirname(DETECTIONS_CSV), exist_ok=True)
+    if os.path.exists(DETECTIONS_CSV):
+        existing_df = pd.read_csv(DETECTIONS_CSV)
+        preserved_df = existing_df[~existing_df["neighborhood"].isin(touched_neighborhoods)]
+        df = pd.concat([preserved_df, new_df], ignore_index=True)
+    else:
+        df = new_df
+
     df.to_csv(DETECTIONS_CSV, index=False)
-    print(f"Wrote {len(df)} detections across {df['neighborhood'].nunique()} neighborhoods -> {DETECTIONS_CSV}")
+    print(f"This run: {len(new_df)} detections for {sorted(touched_neighborhoods)}")
+    print(f"Wrote {len(df)} total detections across {df['neighborhood'].nunique()} neighborhoods -> {DETECTIONS_CSV}")
     print(df.groupby("neighborhood").size())
 
     missing = [n for n in NEIGHBORHOODS if n not in set(df["neighborhood"])]

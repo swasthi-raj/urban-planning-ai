@@ -103,3 +103,68 @@ seeded placeholder data otherwise — no code changes needed either way.
 The `compute_equity_score()` function has a placeholder weighting formula
 (Severe = 2x, Light = 1x). **This should be finalized with Dr. Fernandez**
 before it's used in any real reporting.
+
+## Adding a new neighborhood
+
+`config.py` is the single source of truth for the study neighborhoods —
+`process_311.py`, `download_gsv.py`, `run_inference.py`, and the dashboard
+all read from it, so adding a neighborhood there is the only definition
+change needed anywhere in the project.
+
+1. **Add an entry to `NEIGHBORHOODS` in `config.py`:**
+
+   ```python
+   "My New Neighborhood": {
+       "lat": 32.0000, "lon": -117.0000,
+       "category": "Underserved",  # or "Wealthier"
+       "comm_plan_name": "MY NEW NEIGHBORHOOD",  # or None if outside SD 311 coverage
+   },
+   ```
+
+   `comm_plan_name` must match the `comm_plan_name` field in San Diego's
+   Get It Done 311 dataset — set it to `None` for a neighborhood outside
+   San Diego city limits (like El Cajon), and `process_311.py`/the
+   dashboard will both handle that gracefully instead of showing a
+   misleading zero.
+
+2. **Get images into a folder named after the neighborhood** under
+   `data/gsv_images/`. Either let `download_gsv.py` pull them
+   automatically (it already saves per-neighborhood, since the new
+   entry is now in `NEIGHBORHOODS`):
+
+   ```bash
+   python download_gsv.py
+   ```
+
+   or drop your own images in manually — folder name matching is
+   case-insensitive and treats spaces/underscores the same, so any of
+   these work: `data/gsv_images/My New Neighborhood/`,
+   `data/gsv_images/My_New_Neighborhood/`, `data/gsv_images/my new neighborhood/`.
+   **No filename geotagging is required** — images are matched to a
+   neighborhood by their parent folder name first, and only fall back to
+   parsing lat/lon from the filename if the folder doesn't match one of
+   the configured neighborhoods.
+
+3. **Run inference:**
+
+   ```bash
+   python run_inference.py --weights "best (3).pt"
+   ```
+
+   This is merge-safe — it only replaces detections for the
+   neighborhood(s) whose images it processed this run, so your existing
+   neighborhoods' detections aren't touched.
+
+4. **(Optional) Refresh 311 data** so the new neighborhood's complaint
+   counts show up too:
+
+   ```bash
+   python process_311.py
+   ```
+
+That's it — relaunch the dashboard (or refresh Streamlit Cloud) and the
+new neighborhood's equity score, map bubble, and table row appear
+automatically. If you want a sample annotated image to show under
+"Sample detections by neighborhood," save one as
+`dashboard/sample_images/My_New_Neighborhood.jpg` (spaces replaced with
+underscores, matching the neighborhood name).

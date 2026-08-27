@@ -13,6 +13,7 @@ otherwise placeholder counts are used the same way.
 """
 
 import os
+import sys
 
 import streamlit as st
 import pandas as pd
@@ -25,45 +26,24 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
-DETECTIONS_CSV = os.path.join(DATA_DIR, "detections.csv")
-COMPLAINTS_311_CSV = os.path.join(DATA_DIR, "complaints_311.csv")
+# config.py lives at the repo root, one level up from this file.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from config import (  # noqa: E402
+    NEIGHBORHOODS,
+    CLASS_MODEL_CONFIDENCE,
+    SEVERITY_MAP,
+    DATA_DIR,
+    DETECTIONS_CSV,
+    COMPLAINTS_311_CSV,
+)
 
 # =========================================================================
 # DATA LAYER
 # =========================================================================
-
-NEIGHBORHOODS = {
-    # name: (lat, lon, category)
-    "Barrio Logan":    (32.6980, -117.1440, "Underserved"),
-    "City Heights":    (32.7490, -117.1150, "Underserved"),
-    "El Cajon":        (32.7948, -116.9625, "Underserved"),
-    "Encanto":         (32.7075, -117.0525, "Underserved"),
-    "La Jolla":        (32.8328, -117.2713, "Wealthier"),
-    "Mission Hills":   (32.7503, -117.1825, "Wealthier"),
-    "Del Mar Heights": (32.9595, -117.2494, "Wealthier"),
-}
-
-# Real per-class mAP50 from the trained model (best (3).pt, yolov8m-seg,
-# 60 epochs, overall mAP50 = 0.577) — not a placeholder, this is the actual
-# training result read from training_results (3).zip / results.csv.
-CLASS_MODEL_CONFIDENCE = {
-    "Longitudinal Crack": 0.550,
-    "Transverse Crack": 0.318,
-    "Alligator Crack": 0.328,
-    "Pothole": 0.501,
-    "Side_Walk": 0.847,
-    "Bike_Lane": 0.921,
-}
-
-SEVERITY_MAP = {
-    "Pothole": "Severe",
-    "Alligator Crack": "Severe",
-    "Longitudinal Crack": "Light",
-    "Transverse Crack": "Light",
-    "Side_Walk": "N/A",
-    "Bike_Lane": "N/A",
-}
+# NEIGHBORHOODS, CLASS_MODEL_CONFIDENCE, and SEVERITY_MAP all come from
+# config.py — the single source of truth shared with process_311.py,
+# download_gsv.py, and run_inference.py. Add a neighborhood there, not
+# here — see README.md > "Adding a new neighborhood".
 
 
 @st.cache_data
@@ -84,7 +64,8 @@ def load_detections(seed: int = 42) -> pd.DataFrame:
     rng = np.random.default_rng(seed)
     rows = []
     classes = list(CLASS_MODEL_CONFIDENCE.keys())
-    for name, (lat, lon, category) in NEIGHBORHOODS.items():
+    for name, info in NEIGHBORHOODS.items():
+        lat, lon, category = info["lat"], info["lon"], info["category"]
         base_count = rng.integers(180, 260) if category == "Underserved" else rng.integers(70, 150)
         for _ in range(base_count):
             cls = rng.choice(classes, p=[0.28, 0.18, 0.08, 0.22, 0.14, 0.10])
@@ -118,7 +99,8 @@ def load_311() -> pd.DataFrame:
 
     rng = np.random.default_rng(11)
     data = []
-    for name, (_, _, category) in NEIGHBORHOODS.items():
+    for name, info in NEIGHBORHOODS.items():
+        category = info["category"]
         count = rng.integers(15, 45) if category == "Underserved" else rng.integers(30, 70)
         data.append({
             "neighborhood": name,
@@ -148,8 +130,8 @@ def compute_equity_score(detections: pd.DataFrame) -> pd.DataFrame:
         )
         .reset_index()
     )
-    summary["lat"] = summary["neighborhood"].map(lambda n: NEIGHBORHOODS[n][0])
-    summary["lon"] = summary["neighborhood"].map(lambda n: NEIGHBORHOODS[n][1])
+    summary["lat"] = summary["neighborhood"].map(lambda n: NEIGHBORHOODS[n]["lat"])
+    summary["lon"] = summary["neighborhood"].map(lambda n: NEIGHBORHOODS[n]["lon"])
     return summary.sort_values("equity_score", ascending=False)
 
 
@@ -265,7 +247,7 @@ st.divider()
 # 0 (which misleadingly reads as "no issues found").
 st.subheader("Neighborhood equity summary")
 all_neighborhoods_df = pd.DataFrame([
-    {"neighborhood": n, "category": info[2]} for n, info in NEIGHBORHOODS.items()
+    {"neighborhood": n, "category": info["category"]} for n, info in NEIGHBORHOODS.items()
 ])
 display_table = all_neighborhoods_df.merge(filtered_equity, on=["neighborhood", "category"], how="left")
 display_table = display_table.merge(
