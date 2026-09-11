@@ -1,8 +1,0 @@
-venv/
-*.pt
-*.zip
-__pycache__/
-.ipynb_checkpoints/
-.env
-data/311_raw/
-data/gsv_images/
