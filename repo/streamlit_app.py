@@ -7,39 +7,39 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="SD Infrastructure Equity Dashboard", layout="wide", page_icon="🛣️")
 
 # ---------------------------------------------------------------------------
-# DATA — real, exhaustive counts from the full 3,554-image annotated dataset
-# and a random, unbiased 7-neighborhood street sample (equity comparison).
+# DATA — real, exhaustive counts from the 3,661-image annotated dataset
+# and a random, unbiased 6-neighborhood street sample (equity comparison).
 # Sources: Google Street View, San Diego 311 "Get It Done", SANDAG/Census.
 # ---------------------------------------------------------------------------
 
-# Random-sample-only data (fair, unbiased basis for equity comparison)
+# Random-sample-only data (fair, unbiased basis for equity comparison).
+# Six San Diego neighborhoods — El Cajon removed; it is administratively a
+# separate incorporated city, not a San Diego neighborhood, and is instead
+# used as a held-out test city for the H3 generalizability pilot.
 NEIGHBORHOODS = {
     "Barrio Logan":    {"income": 42722,  "images": 139, "lat": 32.6987, "lng": -117.1420,
-                         "defects": {"Light_Crack": 97, "Side_walk": 123, "Bike_Lane": 9, "Severe_crack": 25, "Pothole": 7}},
+                         "defects": {"Light_Crack": 97, "Side_walk": 122, "Bike_Lane": 9, "Severe_crack": 25, "Pothole": 7}},
     "City Heights":    {"income": 40000,  "images": 155, "lat": 32.7489, "lng": -117.1075,
-                         "defects": {"Severe_crack": 15, "Side_walk": 165, "Light_Crack": 108, "Pothole": 3, "Bike_Lane": 3}},
+                         "defects": {"Severe_crack": 20, "Side_walk": 165, "Light_Crack": 103, "Pothole": 3, "Bike_Lane": 3}},
     "Encanto":         {"income": 58000,  "images": 160, "lat": 32.7062, "lng": -117.0567,
                          "defects": {"Side_walk": 149, "Light_Crack": 115, "Severe_crack": 27, "Pothole": 5, "Bike_Lane": 12}},
     "Mission Hills":   {"income": 148463, "images": 136, "lat": 32.7489, "lng": -117.1866,
                          "defects": {"Light_Crack": 84, "Bike_Lane": 6, "Side_walk": 121, "Severe_crack": 8, "Pothole": 3}},
-    "La Jolla":        {"income": 158141, "images": 114, "lat": 32.8328, "lng": -117.2713,
-                         "defects": {"Severe_crack": 23, "Side_walk": 72, "Pothole": 9, "Light_Crack": 83, "Bike_Lane": 0}},
+    "La Jolla":        {"income": 158141, "images": 227, "lat": 32.8328, "lng": -117.2713,
+                         "defects": {"Severe_crack": 24, "Side_walk": 179, "Pothole": 9, "Light_Crack": 87, "Bike_Lane": 21}},
     "Del Mar Heights": {"income": 153842, "images": 155, "lat": 32.9506, "lng": -117.2400,
                          "defects": {"Severe_crack": 13, "Side_walk": 134, "Light_Crack": 93, "Pothole": 5, "Bike_Lane": 20}},
-    "El Cajon":        {"income": 62729,  "images": 186, "lat": 32.7948, "lng": -116.9625,
-                         "defects": {"Side_walk": 234, "Light_Crack": 135, "Pothole": 13, "Severe_crack": 10, "Bike_Lane": 9}},
 }
 
-# Full-dataset damage counts (Pothole + Severe_crack), all 3,554 images — used for the 311 comparison
+# Full-dataset damage counts (Pothole + Severe_crack), used for the 311 comparison
 FULL_DAMAGE = {
-    "Barrio Logan": 203, "City Heights": 266, "Del Mar Heights": 141,
-    "El Cajon": 23, "Encanto": 375, "La Jolla": 275, "Mission Hills": 191,
+    "Barrio Logan": 225, "City Heights": 535, "Del Mar Heights": 153,
+    "Encanto": 521, "La Jolla": 398, "Mission Hills": 290,
 }
 
 COMPLAINTS = {
     "Barrio Logan": {"total": 146}, "City Heights": {"total": 973}, "Encanto": {"total": 385},
     "Mission Hills": {"total": 1222}, "La Jolla": {"total": 754}, "Del Mar Heights": {"total": 320},
-    "El Cajon": {"total": 0},
 }
 
 MODEL_PERF = {
@@ -110,12 +110,12 @@ st.markdown(
 # KPI ROW
 # ---------------------------------------------------------------------------
 
-total_images = 3554
+total_images = 3661
 grand_total_damage = sum(FULL_DAMAGE.values())
 total_311 = sum(c["total"] for c in COMPLAINTS.values())
 
 k1, k2, k3, k4 = st.columns(4)
-k1.metric("Images Analyzed", f"{total_images:,}", "across 7 neighborhoods (incl. El Cajon)")
+k1.metric("Images Analyzed", f"{total_images:,}", "across 6 San Diego neighborhoods")
 k2.metric("Damage Detected (AI)", f"{grand_total_damage:,}", "pothole + severe crack, full dataset")
 k3.metric("Overall Model Accuracy", f"{OVERALL_MAP50}%", "accuracy benchmark: 80%")
 k4.metric("Related 311 Complaints", f"{total_311:,}", "pavement + sidewalk categories")
@@ -269,7 +269,7 @@ st.success(
     "match or exceed AI-detected damage. This suggests a complaint-driven repair budget would systematically "
     "underserve lower-income neighborhoods, regardless of actual damage severity patterns."
 )
-st.caption("Uses the full 3,554-image dataset for the most complete damage estimate. A high ratio signals underreporting.")
+st.caption("Uses the full 3,661-image dataset for the most complete damage estimate. A high ratio signals underreporting.")
 
 rows = []
 for n in names:
